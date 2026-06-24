@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computacao/roadmaps/roadmap-curto-prazo/index.md",
+                "file": "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "bloco-0"
             }
           }
         ]
@@ -183,23 +183,40 @@
   },
   "active": "cafcce9c8a618b7d",
   "lastOpenFiles": [
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.2cba9657916c",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.45cf3744ae55",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.8269f291e3d9",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.a2af030ff151",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.ec31fb60ad8a",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.5566a81321ce",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.f1038164df2e",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.a277dcf3df90",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.53d317261ef2",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md.tmp.22380.de5e5d1df42a",
-    "computacao/roadmaps/roadmap-curto-prazo/index.md",
-    "CLAUDE.md",
     "computacao/estado.md",
+    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
+    "log.md.tmp.3968.c47418e22134",
+    "computacao/estado.md.tmp.3968.37abdb8fa6fc",
+    "computacao/notas/typescript/typescript-anotacoes-de-tipo-explicitas.md",
+    "computacao/notas/typescript/the-basics.md",
+    "log.md.tmp.3968.d9e27f6c677e",
+    "index.md.tmp.3968.e4f2b08d1402",
+    "computacao/notas/typescript/typescript-strict-null-checks.md",
+    "computacao/notas/typescript/typescript-strict-null-checks.md.tmp.3968.41824b966a6c",
+    "computacao/notas/typescript/typescript-no-implicit-any.md",
+    "computacao/notas/typescript/typescript-no-implicit-any.md.tmp.3968.9d87f3963f18",
+    "computacao/notas/typescript/typescript-modo-strict.md",
+    "computacao/notas/typescript/typescript-modo-strict.md.tmp.3968.c21fd601a9e6",
+    "computacao/notas/typescript/typescript-downleveling.md",
+    "computacao/notas/typescript/typescript-downleveling.md.tmp.3968.9cbb72e6b900",
+    "computacao/notas/typescript/typescript-tipos-apagados.md",
+    "computacao/notas/typescript/typescript-tipos-apagados.md.tmp.3968.acc91020197b",
+    "computacao/notas/typescript/typescript-inferencia-de-tipos.md",
+    "computacao/notas/typescript/typescript-inferencia-de-tipos.md.tmp.3968.e03bba55aa5b",
+    "computacao/notas/typescript/typescript-emissao-com-erros.md",
+    "computacao/notas/typescript/typescript-compilador-tsc.md",
+    "computacao/notas/typescript/typescript-tooling.md",
+    "computacao/notas/typescript/typescript-non-exception-failures.md",
+    "computacao/notas/typescript/typescript-verificacao-de-tipos-estatica.md",
+    "computacao/notas/typescript/typescript-static-type-checking.md",
+    "{B59074A3-78A3-4B5F-ABB4-41977D337C04}.png",
+    "computacao/notas/typescript/typescript-structural-type-system.md",
+    "computacao/roadmaps/roadmap-curto-prazo/index.md",
+    "index.md",
+    "CLAUDE.md",
+    "computacao/notas/Typescript - Structural Type System.md",
     "computacao/roadmaps/roadmap-longo-prazo.md",
     "log.md",
-    "index.md",
     "Bem-vindo.md"
   ]
 }
