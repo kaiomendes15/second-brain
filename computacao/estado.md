@@ -2,7 +2,7 @@
 tipo: estado
 area: computacao
 tags: [carreira, roadmap]
-atualizado: 2026-06-19
+atualizado: 2026-06-24
 ---
 
 # Estado — Onde estou agora
@@ -12,24 +12,51 @@ atualizado: 2026-06-19
 
 ## Foco atual
 
-- **Camada de execução (6 meses)** do [[computacao/roadmaps/roadmap-curto-prazo/index]].
-- **Fase:** início — **Bloco 0 (Base de TypeScript Real)** transitando para **Bloco 1 (NestJS Sólido)**.
+- **Bloco 0 — Base de TypeScript Real** (em andamento)
+- **Bloco 5 — Prontidão para Entrevista** roda em paralelo desde o dia 1.
 - **Regra de ouro:** o projeto é o currículo. Tudo que estuda existe para destravar a **freelance paga (NestJS + React)**.
-- **Bloco 5 (Prontidão para Entrevista)** roda em paralelo desde o dia 1.
 
-## Próximos passos sugeridos
+---
 
-- [ ] Fechar a base de TS do Bloco 0 com a prova de conclusão: CLI/API minúscula 100% tipada, sem IA gerar a lógica.
-- [ ] Começar 1.1/1.2 do Bloco 1: módulos, DI e separar camadas (controller → service → repository) na freelance.
-- [ ] Exercício anti-congelamento: antes de codar uma feature da freelance, escrever entidades/endpoints/fluxo em texto.
-- [ ] Escrever a 1ª das 5 histórias de narrativa pessoal (Bloco 5.1).
+## Progresso no Bloco 0
+
+| Parte | Tema | Status |
+|-------|------|--------|
+| 1 | Getting Started | ✅ Completo |
+| 2 | The Basics | ✅ Completo |
+| 3 | Everyday Types ⭐ | 🔄 Em progresso (primitivos e union types feitos) |
+| 4 | Narrowing ⭐ | ⬜ Não iniciado |
+| 5 | More on Functions | ⬜ Não iniciado |
+| 6 | Object Types | ⬜ Não iniciado |
+| 7 | Type Manipulation | ⬜ Não iniciado |
+| 8 | Utility Types ⭐ | ⬜ Não iniciado |
+| 9 | Classes | ⬜ Não iniciado |
+| 10 | Modules | ⬜ Não iniciado |
+| 11 | Configuração (tsconfig) | ⬜ Não iniciado |
+| — | Projeto-prova | ⬜ Não iniciado |
+
+**Notas criadas até aqui:** `computacao/notas/typescript/` — Structural Typing (Parte 1) + 11 notas granulares de The Basics (Parte 2).
+
+---
+
+## Próximos passos
+
+- [ ] **Agora:** terminar a Parte 3 (Everyday Types) — a página mais importante do bloco. Foco em: `any`, type annotations, funções, object types, `interface` vs `type`, type assertions, literal types, null/undefined.
+- [ ] **Depois:** Parte 4 (Narrowing) — não pular, é o núcleo onde o TS "pensa junto com você".
+- [ ] Ao longo do bloco: criar notas granulares por página estudada (mesmo padrão das notas de The Basics).
+- [ ] Fechar o bloco com o **projeto-prova** (CLI de tarefas ou API minúscula, 100% tipada, sem IA gerar a lógica).
+
+---
 
 ## Ritmo da semana (férias)
 
-Bloco focado 15:30–17:30 + sábado de manhã. Terça e quinta = dias de **base** (arquitetura, banco, prontidão de entrevista).
+Bloco focado 15:30–17:30 + sábado de manhã. Terça e quinta = dias de **base** (TypeScript, arquitetura, prontidão de entrevista).
+
+---
 
 ## Links
 
+- Tracker do Bloco 0: [[computacao/roadmaps/roadmap-curto-prazo/bloco-0]]
 - Roadmap de execução: [[computacao/roadmaps/roadmap-curto-prazo/index]]
 - Biblioteca Pleno → Staff: [[roadmap-longo-prazo]]
 - Projetos ativos: *(adicionar quando existirem em `projetos/`)*

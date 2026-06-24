@@ -33,12 +33,12 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > Leitura rápida de contexto. Não trave aqui. Escolha o guia que casa com seu background.
 
-- [ ] **TS for JS Programmers** — o mais relevante pra você
+- [x] **TS for JS Programmers** — o mais relevante pra você
     - 📄 https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
-- [ ] **TypeScript Tooling in 5 minutes** — montar e rodar o primeiro `tsc`
+- [x] **TypeScript Tooling in 5 minutes** — montar e rodar o primeiro `tsc`
     - 📄 https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html
-- [ ] Instalar TypeScript local, rodar `tsc hello.ts`, ver o `.js` gerado
-- [ ] Entender: TS é superset de JS, tipos somem em runtime, `tsc` só checa e transpila
+- [x] Instalar TypeScript local, rodar `tsc hello.ts`, ver o `.js` gerado
+- [x] Entender: TS é superset de JS, tipos somem em runtime, `tsc` só checa e transpila
 
 ---
 
@@ -46,12 +46,12 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/basic-types.html
 
-- [ ] Entender static type checking: erro de tipo ≠ erro de sintaxe
-- [ ] Entender que TS nunca muda o comportamento em runtime do JS
-- [ ] Tipos de erro: o que o compilador pega antes de rodar
-- [ ] Emitir com erros (`noEmitOnError`) — entender o tradeoff
-- [ ] `strict` mode: o que liga e por que você sempre quer ligado
-- [ ] `noImplicitAny` e `strictNullChecks` — as duas flags que mais importam
+- [x] Entender static type checking: erro de tipo ≠ erro de sintaxe
+- [x] Entender que TS nunca muda o comportamento em runtime do JS
+- [x] Tipos de erro: o que o compilador pega antes de rodar
+- [x] Emitir com erros (`noEmitOnError`) — entender o tradeoff
+- [x] `strict` mode: o que liga e por que você sempre quer ligado
+- [x] `noImplicitAny` e `strictNullChecks` — as duas flags que mais importam
 
 ---
 
@@ -59,7 +59,7 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/everyday-types.html A página mais importante do bloco inteiro. Não corra.
 
-- [ ] Primitivos: `string`, `number`, `boolean`
+- [x] Primitivos: `string`, `number`, `boolean`
 - [ ] Arrays: `number[]` vs `Array<number>`
 - [ ] `any` — o que é, por que evitar, como ele "infecta"
 - [ ] Type annotations em variáveis (e quando deixar a inferência trabalhar)
@@ -68,7 +68,7 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 - [ ] Funções anônimas e contextual typing
 - [ ] Object types: declarar a forma de um objeto
 - [ ] Propriedades opcionais (`?`)
-- [ ] **Union types** — declarar que algo é A ou B
+- [x] **Union types** — declarar que algo é A ou B
 - [ ] Trabalhar com unions (narrowing introdutório)
 - [ ] Type aliases (`type`)
 - [ ] **Interfaces**
