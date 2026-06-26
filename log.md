@@ -3,6 +3,10 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-25] arquivar | Granularização de everyday-types.md (18 notas criadas)
+
+18 notas criadas em `computacao/notas/typescript/` a partir de `everyday-types.md`: primitivos, arrays, tipo any, anotações em funções, contextual typing, object types, optional properties, union types, narrowing, type aliases, interfaces, type aliases vs interfaces, type assertions, literal types, literal inference, null e undefined, non-null assertion e enums. Nota `typescript-anotacoes-de-tipo-explicitas.md` atualizada com conteúdo adicional sobre anotações em variáveis. index.md atualizado.
+
 ## [2026-06-24] avançar | Bloco 0 — Partes 1 e 2 concluídas, Parte 3 em progresso
 
 Partes 1 (Getting Started) e 2 (The Basics) do Bloco 0 concluídas. Parte 3 (Everyday Types) iniciada: primitivos e union types feitos. Partes 4–11 e projeto-prova pendentes. estado.md atualizado.
