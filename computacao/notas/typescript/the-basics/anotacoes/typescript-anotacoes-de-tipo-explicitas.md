@@ -20,6 +20,18 @@ function greet(person: string, date: Date) {
 
 A assinatura acima lê-se: "`greet` recebe `person` do tipo `string` e `date` do tipo `Date`".
 
+## Anotações em variáveis
+
+Também é possível anotar declarações de variável:
+
+```ts
+let myName: string = "Alice";
+```
+
+> TypeScript não usa a notação "tipo à esquerda" como em C/Java (`int x = 0`). As annotations sempre vêm **depois** do identificador.
+
+Na maioria dos casos isso não é necessário — o TypeScript infere o tipo pelo valor de inicialização. Veja [[typescript-inferencia-de-tipos]].
+
 ## O que acontece sem a annotation correta
 
 ```ts
