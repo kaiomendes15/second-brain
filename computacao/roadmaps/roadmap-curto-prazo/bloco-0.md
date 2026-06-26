@@ -60,24 +60,24 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 > 📄 https://www.typescriptlang.org/docs/handbook/2/everyday-types.html A página mais importante do bloco inteiro. Não corra.
 
 - [x] Primitivos: `string`, `number`, `boolean`
-- [ ] Arrays: `number[]` vs `Array<number>`
-- [ ] `any` — o que é, por que evitar, como ele "infecta"
-- [ ] Type annotations em variáveis (e quando deixar a inferência trabalhar)
-- [ ] Funções: tipar parâmetros e retorno
-- [ ] Tipos de retorno inferidos vs explícitos
-- [ ] Funções anônimas e contextual typing
-- [ ] Object types: declarar a forma de um objeto
-- [ ] Propriedades opcionais (`?`)
+- [x] Arrays: `number[]` vs `Array<number>`
+- [x] `any` — o que é, por que evitar, como ele "infecta"
+- [x] Type annotations em variáveis (e quando deixar a inferência trabalhar)
+- [x] Funções: tipar parâmetros e retorno
+- [x] Tipos de retorno inferidos vs explícitos
+- [x] Funções anônimas e contextual typing
+- [x] Object types: declarar a forma de um objeto
+- [x] Propriedades opcionais (`?`)
 - [x] **Union types** — declarar que algo é A ou B
-- [ ] Trabalhar com unions (narrowing introdutório)
-- [ ] Type aliases (`type`)
-- [ ] **Interfaces**
-- [ ] **`type` vs `interface`** — a diferença e quando usar cada (item de entrevista clássico)
-- [ ] Type assertions (`as`) — e por que usar com cautela
-- [ ] Literal types (`"a" | "b" | "c"`)
-- [ ] Literal inference e o problema do objeto literal
-- [ ] `null` e `undefined`, optional chaining (`?.`), non-null assertion (`!`)
-- [ ] Entender por que `!` pode esconder bugs reais
+- [x] Trabalhar com unions (narrowing introdutório)
+- [x] Type aliases (`type`)
+- [x] **Interfaces**
+- [x] **`type` vs `interface`** — a diferença e quando usar cada (item de entrevista clássico)
+- [x] Type assertions (`as`) — e por que usar com cautela
+- [x] Literal types (`"a" | "b" | "c"`)
+- [x] Literal inference e o problema do objeto literal
+- [x] `null` e `undefined`, optional chaining (`?.`), non-null assertion (`!`)
+- [x] Entender por que `!` pode esconder bugs reais
 
 ---
 
