@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
+                "file": "computacao/notas/typescript/the-basics/configuracao/typescript-strict-null-checks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bloco-0"
+              "title": "typescript-strict-null-checks"
             }
           }
         ]
@@ -183,11 +183,21 @@
   },
   "active": "cafcce9c8a618b7d",
   "lastOpenFiles": [
+    "computacao/notas/typescript/everyday-types/primitivos/typescript-null-undefined.md",
+    "computacao/notas/typescript/the-basics/fundamentos/typescript-non-exception-failures.md",
+    "computacao/notas/typescript/everyday-types/primitivos/typescript-enums.md",
+    "computacao/notas/typescript/everyday-types/primitivos/typescript-arrays.md",
+    "computacao/notas/typescript/everyday-types/primitivos/typescript-tipo-any.md",
     "computacao/notas/typescript/everyday-types/mecanismos/typescript-literal-inference.md",
-    "computacao/notas/typescript/everyday-types/mecanismos/typescript-literal-types.md",
     "computacao/notas/typescript/everyday-types/mecanismos/typescript-contextual-typing.md",
     "computacao/notas/typescript/everyday-types/mecanismos/typescript-anotacoes-em-funcoes.md",
+    "computacao/notas/typescript/everyday-types/tipos-compostos/typescript-interfaces.md",
+    "computacao/notas/typescript/everyday-types/tipos-compostos/typescript-union-types.md",
+    "computacao/notas/typescript/everyday-types/tipos-compostos/typescript-type-aliases-vs-interfaces.md",
+    "computacao/notas/typescript/everyday-types/tipos-compostos/typescript-type-aliases.md",
+    "computacao/notas/typescript/everyday-types/tipos-compostos/typescript-optional-properties.md",
     "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
+    "computacao/notas/typescript/everyday-types/mecanismos/typescript-literal-types.md",
     "computacao/notas/typescript/typescript-contextual-typing.md",
     "computacao/notas/typescript/typescript-anotacoes-em-funcoes.md",
     "computacao/notas/typescript/typescript-union-types.md",
@@ -199,16 +209,6 @@
     "computacao/notas/typescript/typescript-literal-types.md",
     "computacao/notas/typescript/typescript-literal-inference.md",
     "computacao/notas/typescript/typescript-interfaces.md",
-    "CLAUDE.md",
-    "computacao/notas/typescript/everyday-types/tipos-compostos/typescript-optional-properties.md",
-    "computacao/notas/typescript/everyday-types/tipos-compostos/typescript-object-types.md",
-    "computacao/notas/typescript/everyday-types/primitivos/typescript-enums.md",
-    "computacao/notas/typescript/everyday-types/primitivos/typescript-null-undefined.md",
-    "computacao/notas/typescript/the-basics/configuracao/typescript-strict-null-checks.md",
-    "computacao/notas/typescript/the-basics/configuracao/typescript-no-implicit-any.md",
-    "computacao/notas/typescript/the-basics/configuracao/typescript-modo-strict.md",
-    "computacao/notas/typescript/the-basics/anotacoes/typescript-inferencia-de-tipos.md",
-    "computacao/notas/typescript/the-basics/anotacoes/typescript-anotacoes-de-tipo-explicitas.md",
     "computacao/notas/typescript/everyday-types/tipos-compostos",
     "computacao/notas/typescript/everyday-types/primitivos",
     "computacao/notas/typescript/everyday-types/mecanismos",
