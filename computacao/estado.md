@@ -2,7 +2,7 @@
 tipo: estado
 area: computacao
 tags: [carreira, roadmap]
-atualizado: 2026-06-24
+atualizado: 2026-07-06
 ---
 
 # Estado — Onde estou agora
@@ -24,8 +24,8 @@ atualizado: 2026-06-24
 |-------|------|--------|
 | 1 | Getting Started | ✅ Completo |
 | 2 | The Basics | ✅ Completo |
-| 3 | Everyday Types ⭐ | 🔄 Em progresso (primitivos e union types feitos) |
-| 4 | Narrowing ⭐ | ⬜ Não iniciado |
+| 3 | Everyday Types ⭐ | ✅ Completo |
+| 4 | Narrowing ⭐ | ✅ Completo |
 | 5 | More on Functions | ⬜ Não iniciado |
 | 6 | Object Types | ⬜ Não iniciado |
 | 7 | Type Manipulation | ⬜ Não iniciado |
@@ -41,8 +41,8 @@ atualizado: 2026-06-24
 
 ## Próximos passos
 
-- [ ] **Agora:** terminar a Parte 3 (Everyday Types) — a página mais importante do bloco. Foco em: `any`, type annotations, funções, object types, `interface` vs `type`, type assertions, literal types, null/undefined.
-- [ ] **Depois:** Parte 4 (Narrowing) — não pular, é o núcleo onde o TS "pensa junto com você".
+- [ ] **Agora:** Parte 5 (More on Functions) — foco em generic functions.
+- [ ] **Depois:** Parte 6 (Object Types).
 - [ ] Ao longo do bloco: criar notas granulares por página estudada (mesmo padrão das notas de The Basics).
 - [ ] Fechar o bloco com o **projeto-prova** (CLI de tarefas ou API minúscula, 100% tipada, sem IA gerar a lógica).
 

@@ -3,6 +3,10 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-07-06] avançar | Bloco 0 — Parte 3 concluída, Parte 4 (Narrowing) em progresso
+
+Sessão de estudo com pomodoro (60 min ativos): revisão das lacunas da fixação de Everyday Types (runtime de `as`/`!`, `type` vs `interface`, `?.` vs `??`), seguida de leitura e exercícios práticos de Narrowing — `typeof` guards, truthiness, equality, `in`, `instanceof`, assignment narrowing, control flow analysis e type predicate customizado. Faltam discriminated unions e `never`/exhaustiveness checking para fechar a Parte 4. estado.md atualizado.
+
 ## [2026-06-25] arquivar | Granularização de everyday-types.md (18 notas criadas)
 
 18 notas criadas em `computacao/notas/typescript/` a partir de `everyday-types.md`: primitivos, arrays, tipo any, anotações em funções, contextual typing, object types, optional properties, union types, narrowing, type aliases, interfaces, type aliases vs interfaces, type assertions, literal types, literal inference, null e undefined, non-null assertion e enums. Nota `typescript-anotacoes-de-tipo-explicitas.md` atualizada com conteúdo adicional sobre anotações em variáveis. index.md atualizado.

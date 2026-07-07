@@ -85,16 +85,16 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/narrowing.html Onde TS "pensa junto com você". Domina isto e some 80% da sua insegurança.
 
-- [ ] `typeof` type guards
-- [ ] Truthiness narrowing
-- [ ] Equality narrowing (`===`, `!==`)
-- [ ] `in` operator narrowing
-- [ ] `instanceof` narrowing
-- [ ] Assignment narrowing
-- [ ] Control flow analysis — como o TS segue o fluxo
-- [ ] Type predicates (`param is Type`) — escrever seu próprio guard
-- [ ] **Discriminated unions** — o padrão mais útil do TS no mundo real
-- [ ] O tipo `never` e exhaustiveness checking (garantir que tratei todos os casos)
+- [x] `typeof` type guards
+- [x] Truthiness narrowing
+- [x] Equality narrowing (`===`, `!==`)
+- [x] `in` operator narrowing
+- [x] `instanceof` narrowing
+- [x] Assignment narrowing
+- [x] Control flow analysis — como o TS segue o fluxo
+- [x] Type predicates (`param is Type`) — escrever seu próprio guard
+- [x] **Discriminated unions** — o padrão mais útil do TS no mundo real
+- [x] O tipo `never` e exhaustiveness checking (garantir que tratei todos os casos)
 
 ---
 
