@@ -3,6 +3,10 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-07-06] revisar | Reorganização das notas de TypeScript + limpeza
+
+Subpastas de `computacao/notas/typescript/the-basics/` e `everyday-types/` reorganizadas em grupos mais específicos e coesos: `the-basics/` ganhou `compilador/`, `anotacoes-de-tipo/`, `configuracao-strict/` (renomeadas de `ferramentas/`, `anotacoes/`, `configuracao/`); `everyday-types/` teve a pasta genérica `mecanismos/` e `tipos-compostos/` quebradas em `tipagem-de-funcoes/`, `uniao-e-narrowing/`, `tipos-literais/`, `assercoes-de-tipo/` e `formas-de-objeto/`. Nota duplicada `typescript-static-type-checking.md` removida (conteúdo e imagem incorporados em `typescript-verificacao-de-tipos-estatica.md`, que também teve o link quebrado `[[typescript-falhas-nao-excepcionais]]` corrigido para `[[typescript-non-exception-failures]]`). Imagem solta na raiz do cofre movida para `assets/typescript-static-type-checking-exemplo.png`.
+
 ## [2026-07-06] avançar | Bloco 0 — Parte 3 concluída, Parte 4 (Narrowing) em progresso
 
 Sessão de estudo com pomodoro (60 min ativos): revisão das lacunas da fixação de Everyday Types (runtime de `as`/`!`, `type` vs `interface`, `?.` vs `??`), seguida de leitura e exercícios práticos de Narrowing — `typeof` guards, truthiness, equality, `in`, `instanceof`, assignment narrowing, control flow analysis e type predicate customizado. Faltam discriminated unions e `never`/exhaustiveness checking para fechar a Parte 4. estado.md atualizado.

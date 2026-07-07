@@ -32,8 +32,10 @@ message();
 
 O erro é reportado **sem precisar executar o código**.
 
+![[typescript-static-type-checking-exemplo.png]]
+
 ## Relação com outros conceitos
 
 - O mecanismo de detecção é o [[typescript-compilador-tsc]], que analisa o código antes de emitir JavaScript.
-- Além de erros óbvios, o TypeScript também captura [[typescript-falhas-nao-excepcionais]] — comportamentos silenciosos do JS que também são bugs.
+- Além de erros óbvios, o TypeScript também captura [[typescript-non-exception-failures]] — comportamentos silenciosos do JS que também são bugs.
 - A precisão da verificação depende do nível de [[typescript-modo-strict]] configurado.

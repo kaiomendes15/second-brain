@@ -18,5 +18,5 @@ atualizado: 2026-06-26
 - Imprecisão entre os operadores `?.` (optional chaining) e `??` (nullish coalescing)
 
 ### Próximos passos
-- Revisar `typescript-type-assertions.md` e `typescript-non-null-assertion.md` com foco no comportamento em runtime
+- Revisar [[typescript-type-assertions]] e [[typescript-non-null-assertion]] com foco no comportamento em runtime
 - Ao estudar Narrowing (Parte 4), reforçar o que `?.` e `??` fazem individualmente
