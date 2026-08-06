@@ -1,4 +1,4 @@
-# 📘 Bloco 0 — TypeScript do Zero ao Necessário
+ # 📘 Bloco 0 — TypeScript do Zero ao Necessário
 
 > **Como usar este tracker.** Cada seção mapeia uma página real do Handbook oficial. Marque um item só quando passar do critério: **consigo explicar do zero, escrever sem copiar, e dizer quando usar.** Ler o vídeo/página não conta — escrever conta.
 > 
@@ -102,20 +102,20 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/functions.html
 
-- [ ] Function type expressions
-- [ ] Call signatures
-- [ ] Construct signatures
-- [ ] **Generic functions** — a base de generics
-- [ ] Inference em generics
-- [ ] Constraints (`extends`) em generics
-- [ ] Especificar type arguments manualmente
-- [ ] Boas práticas de generics (quando NÃO usar)
-- [ ] Optional parameters e default parameters
-- [ ] Function overloads — o que são e quando valem a pena
-- [ ] `this` em funções
-- [ ] Rest parameters e spread
-- [ ] Parameter destructuring tipado
-- [ ] Return types: `void`, `never`, `object`, `unknown`
+- [x] Function type expressions
+- [x] Call signatures
+- [x] Construct signatures
+- [x] **Generic functions** — a base de generics
+- [x] Inference em generics
+- [x] Constraints (`extends`) em generics
+- [x] Especificar type arguments manualmente
+- [x] Boas práticas de generics (quando NÃO usar)
+- [x] Optional parameters e default parameters
+- [x] Function overloads — o que são e quando valem a pena
+- [x] `this` em funções
+- [x] Rest parameters e spread
+- [x] Parameter destructuring tipado
+- [x] Return types: `void`, `never`, `object`, `unknown`
 
 ---
 
@@ -123,16 +123,16 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/objects.html
 
-- [ ] Property modifiers: `?` (optional), `readonly`
-- [ ] Index signatures (`[key: string]: T`)
-- [ ] Excess property checks
-- [ ] Extending types (`interface extends`)
-- [ ] Intersection types (`A & B`)
-- [ ] `interface extends` vs intersection — diferença prática
-- [ ] Generic object types
-- [ ] `Array<T>`, `ReadonlyArray<T>`
-- [ ] Tuple types (`[string, number]`)
-- [ ] `readonly` tuples
+- [x] Property modifiers: `?` (optional), `readonly`
+- [x] Index signatures (`[key: string]: T`)
+- [x] Excess property checks
+- [x] Extending types (`interface extends`)
+- [x] Intersection types (`A & B`)
+- [x] `interface extends` vs intersection — diferença prática
+- [x] Generic object types
+- [x] `Array<T>`, `ReadonlyArray<T>`
+- [x] Tuple types (`[string, number]`)
+- [x] `readonly` tuples
 
 ---
 
@@ -144,42 +144,42 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/generics.html
 
-- [ ] Generic functions revisitado, com profundidade
-- [ ] Generic classes
-- [ ] Generic constraints
-- [ ] Usar type parameters em constraints
-- [ ] Generic parameter defaults
+- [x] Generic functions revisitado, com profundidade
+- [x] Generic classes
+- [x] Generic constraints
+- [x] Usar type parameters em constraints
+- [x] Generic parameter defaults
 
 ### 7.2 Keyof Type Operator
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/keyof-types.html
 
-- [ ] `keyof` — extrair as chaves de um tipo
+- [x] `keyof` — extrair as chaves de um tipo
 
 ### 7.3 Typeof Type Operator
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/typeof-types.html
 
-- [ ] `typeof` no nível de tipo (diferente do `typeof` em runtime)
+- [x] `typeof` no nível de tipo (diferente do `typeof` em runtime)
 
 ### 7.4 Indexed Access Types
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html
 
-- [ ] `T["propriedade"]` — acessar o tipo de uma propriedade
+- [x] `T["propriedade"]` — acessar o tipo de uma propriedade
 
 ### 7.5 Conditional Types (introdução — só reconhecer)
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/conditional-types.html
 
-- [ ] Entender `T extends U ? X : Y` no nível de leitura
-- [ ] `infer` (só reconhecer, não precisa dominar agora)
+- [x] Entender `T extends U ? X : Y` no nível de leitura
+- [x] `infer` (só reconhecer, não precisa dominar agora)
 
 ### 7.6 Mapped Types (introdução)
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/mapped-types.html
 
-- [ ] Entender como `{ [K in keyof T]: ... }` funciona (leitura)
+- [x] Entender como `{ [K in keyof T]: ... }` funciona (leitura)
 
 ### 7.7 Template Literal Types (só reconhecer)
 

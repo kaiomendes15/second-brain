@@ -2,7 +2,7 @@
 tipo: estado
 area: computacao
 tags: [carreira, roadmap]
-atualizado: 2026-07-06
+atualizado: 2026-07-20
 ---
 
 # Estado — Onde estou agora
@@ -26,9 +26,9 @@ atualizado: 2026-07-06
 | 2 | The Basics | ✅ Completo |
 | 3 | Everyday Types ⭐ | ✅ Completo |
 | 4 | Narrowing ⭐ | ✅ Completo |
-| 5 | More on Functions | ⬜ Não iniciado |
-| 6 | Object Types | ⬜ Não iniciado |
-| 7 | Type Manipulation | ⬜ Não iniciado |
+| 5 | More on Functions | ✅ Completo |
+| 6 | Object Types | ✅ Completo |
+| 7 | Type Manipulation | 🔶 Em progresso (falta só Template Literal Types) |
 | 8 | Utility Types ⭐ | ⬜ Não iniciado |
 | 9 | Classes | ⬜ Não iniciado |
 | 10 | Modules | ⬜ Não iniciado |
@@ -41,8 +41,8 @@ atualizado: 2026-07-06
 
 ## Próximos passos
 
-- [ ] **Agora:** Parte 5 (More on Functions) — foco em generic functions.
-- [ ] **Depois:** Parte 6 (Object Types).
+- [ ] **Agora:** fechar Parte 7 (Type Manipulation — só reconhecer): falta só Template Literal Types.
+- [ ] **Depois:** Parte 8 (Utility Types).
 - [ ] Ao longo do bloco: criar notas granulares por página estudada (mesmo padrão das notas de The Basics).
 - [ ] Fechar o bloco com o **projeto-prova** (CLI de tarefas ou API minúscula, 100% tipada, sem IA gerar a lógica).
 
