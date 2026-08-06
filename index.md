@@ -54,6 +54,48 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 - [[typescript-non-null-assertion]] — operador `!` para remover `null`/`undefined` sem checagem explícita.
 - [[typescript-enums]] — constantes nomeadas com `enum`; adição de runtime ao JavaScript.
 
+#### TypeScript — More on Functions
+
+- [[typescript-function-type-expressions]] — sintaxe `(a: T) => U` pra tipar funções.
+- [[typescript-call-signatures]] — call signatures: funções callable com propriedades.
+- [[typescript-construct-signatures]] — construct signatures: tipar funções chamadas com `new`.
+- [[typescript-generic-functions]] — generics em funções: type parameter e inferência.
+- [[typescript-generic-constraints]] — constraints (`extends`) e o erro de "working with constrained values".
+- [[typescript-especificar-type-arguments]] — especificar type arguments manualmente quando a inferência falha.
+- [[typescript-boas-praticas-generics]] — diretrizes: push type parameters down, menos parâmetros, aparecer 2x.
+- [[typescript-optional-parameters]] — parâmetros opcionais, defaults e a pegadinha em callbacks.
+- [[typescript-function-overloads]] — overload signatures vs implementation signature; quando evitar overloads.
+- [[typescript-this-em-funcoes]] — declarar o tipo de `this` como parâmetro sintático.
+- [[typescript-outros-tipos-de-retorno]] — `void`, `object`, `unknown`, `never` e o tipo global `Function`.
+- [[typescript-rest-parameters-e-arguments]] — rest parameters (`...m: number[]`) e rest arguments (spread).
+- [[typescript-parameter-destructuring]] — destructuring de parâmetros com tipo anotado após o padrão.
+- [[typescript-assignabilidade-de-void]] — por que funções que retornam algo são atribuíveis a `() => void`.
+
+#### TypeScript — Object Types
+
+- [[typescript-optional-properties-em-objetos]] — marcar propriedades como opcionais com `?` em object types e defaults por destructuring.
+- [[typescript-readonly-properties]] — modificador `readonly` em propriedades: o que garante (e o que não garante).
+- [[typescript-index-signatures]] — index signatures (`[index: T]: U`), tipos permitidos e variante `readonly`.
+- [[typescript-excess-property-checks]] — checagem de propriedades excedentes em object literals e como contorná-la.
+- [[typescript-extending-types]] — `interface extends`, inclusive extensão múltipla.
+- [[typescript-intersection-types]] — combinar object types com o operador `&`.
+- [[typescript-interface-extends-vs-intersection]] — diferença de tratamento de conflitos entre `extends` e `&`.
+- [[typescript-generic-object-types]] — object types genéricos (`interface Box<Type>`).
+- [[typescript-array-type]] — `Array<T>` como tipo genérico embutido.
+- [[typescript-readonlyarray-type]] — `ReadonlyArray<T>` e a sintaxe `readonly T[]`.
+- [[typescript-tuple-types]] — tuplas: elementos fixos, opcionais e rest elements.
+- [[typescript-readonly-tuple-types]] — tuplas `readonly` e inferência via `as const`.
+
+#### TypeScript — Type Manipulation
+
+- [[typescript-conditional-types]] — sintaxe `T extends U ? X : Y` e uso com generics para evitar overloads.
+- [[typescript-conditional-type-constraints]] — constranger o branch verdadeiro de um conditional type pelo tipo comparado.
+- [[typescript-infer-keyword]] — keyword `infer` para extrair tipos dentro de conditional types.
+- [[typescript-distributive-conditional-types]] — conditional types se distribuem sobre union types; como evitar com colchetes.
+- [[typescript-mapped-types]] — construir um tipo iterando as chaves de outro com `[Property in keyof Type]`.
+- [[typescript-mapping-modifiers]] — modificadores `readonly`/`?` e prefixos `+`/`-` em mapped types.
+- [[typescript-key-remapping-via-as]] — remapear chaves em mapped types com a cláusula `as`.
+
 ## Projetos
 *(vazio — um item por projeto)*
 
