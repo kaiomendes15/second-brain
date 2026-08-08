@@ -3,6 +3,10 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-08] arquivar | Criação do projeto Máquina de Estados de Pedido
+
+Criada a pasta projetos/maquina-estados-pedido/ com README.md detalhando requisitos (discriminated unions para Pedido e Evento, função de transição com narrowing exaustivo, type guard customizado, tsconfig strict) e links da documentação oficial do TypeScript a revisar antes de começar (Everyday Types, Narrowing, More on Functions, Indexed Access Types). Mini-projeto de consolidação prática do Bloco 0, sem lógica escrita pela IA. index.md atualizado.
+
 ## [2026-07-20] arquivar | Granularização de Conditional Types.md e Mapped Types.md (7 notas criadas em computacao/notas/typescript/type-manipulation)
 
 Processadas as notas cruas de inbox/Conditional Types.md e inbox/Mapped Types.md (clippings do TypeScript Handbook). Criada a pasta computacao/notas/typescript/type-manipulation/ (sob confirmação) com 7 notas atômicas: conditional types (sintaxe base), conditional type constraints, infer keyword, distributive conditional types, mapped types (sintaxe base), mapping modifiers (readonly/optional) e key remapping via as. index.md atualizado; notas cruas removidas do inbox.

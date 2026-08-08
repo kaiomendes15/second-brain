@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado: 2026-06-19
+atualizado: 2026-08-08
 ---
 
 # Índice do Cofre
@@ -97,7 +97,8 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 - [[typescript-key-remapping-via-as]] — remapear chaves em mapped types com a cláusula `as`.
 
 ## Projetos
-*(vazio — um item por projeto)*
+
+- [[projetos/maquina-estados-pedido/README|Máquina de Estados de Pedido]] — mini-projeto de consolidação do Bloco 0 (discriminated unions, narrowing, exhaustiveness checking).
 
 ## Estudos Pessoais
 

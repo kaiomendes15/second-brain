@@ -185,7 +185,7 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html
 
-- [ ] Saber que existem e pra que servem
+- [x] Saber que existem e pra que servem
 
 ---
 

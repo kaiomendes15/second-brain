@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
+                "file": "projetos/maquina-estados-pedido/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bloco-0"
+              "title": "README"
             }
           }
         ]
@@ -41,10 +41,12 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -94,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computacao/roadmaps/roadmap-curto-prazo/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos"
+              "title": "Backlinks"
             }
           },
           {
@@ -172,18 +175,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "realclaudian:Open Claudian": false
     }
   },
   "active": "cafcce9c8a618b7d",
   "lastOpenFiles": [
+    "log.md.tmp.4368.b2419df68473",
+    "index.md.tmp.4368.6a5a5f627c12",
+    "index.md.tmp.4368.887f60373dde",
+    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
+    "projetos/maquina-estados-pedido/README.md",
+    "projetos/maquina-estados-pedido/README.md.tmp.4368.b851f0fe3559",
+    "projetos/maquina-estados-pedido",
     "computacao/roadmaps/roadmap-curto-prazo/index.md",
+    "computacao/roadmaps/roadmap-longo-prazo.md",
+    "CLAUDE.md",
+    "Untitled.canvas",
     "computacao/estado.md",
     "log.md.tmp.9708.935c6949c625",
     "index.md.tmp.9708.79ce7fcff30a",
@@ -197,16 +211,10 @@
     "computacao/notas/typescript/type-manipulation/typescript-distributive-conditional-types.md",
     "computacao/notas/typescript/type-manipulation/typescript-distributive-conditional-types.md.tmp.9708.0fafa09b97b8",
     "computacao/notas/typescript/type-manipulation/typescript-infer-keyword.md",
-    "computacao/notas/typescript/type-manipulation/typescript-infer-keyword.md.tmp.9708.025300a0c7c7",
     "computacao/notas/typescript/type-manipulation/typescript-conditional-type-constraints.md",
-    "computacao/notas/typescript/type-manipulation/typescript-conditional-type-constraints.md.tmp.9708.c4ab4cd326d3",
     "computacao/notas/typescript/type-manipulation/typescript-conditional-types.md",
-    "computacao/notas/typescript/type-manipulation/typescript-conditional-types.md.tmp.9708.4b81690d9828",
-    "computacao/notas/typescript/type-manipulation",
     "inbox/Mapped Types.md",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
     "log.md",
-    "CLAUDE.md",
     "computacao/notas/typescript/more-on-functions/typescript-assignabilidade-de-void.md",
     "computacao/notas/typescript/more-on-functions/typescript-parameter-destructuring.md",
     "computacao/notas/typescript/more-on-functions/typescript-rest-parameters-e-arguments.md",
@@ -216,9 +224,6 @@
     "computacao/notas/typescript/more-on-functions/typescript-optional-parameters.md",
     "computacao/notas/typescript/more-on-functions/typescript-boas-praticas-generics.md",
     "computacao/notas/typescript/more-on-functions/typescript-especificar-type-arguments.md",
-    "computacao/notas/typescript/more-on-functions/typescript-generic-constraints.md",
-    "computacao/notas/typescript/more-on-functions/typescript-generic-functions.md",
-    "computacao/notas/typescript/more-on-functions/typescript-construct-signatures.md",
     "assets/typescript-static-type-checking-exemplo.png",
     "{B59074A3-78A3-4B5F-ABB4-41977D337C04}.png"
   ]

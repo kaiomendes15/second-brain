@@ -6,7 +6,50 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:computacao/notas/typescript/the-basics",
+      "color": {
+        "a": 1,
+        "rgb": 3770341
+      }
+    },
+    {
+      "query": "path:computacao/notas/typescript/everyday-types",
+      "color": {
+        "a": 1,
+        "rgb": 14244134
+      }
+    },
+    {
+      "query": "path:computacao/notas/typescript/more-on-functions",
+      "color": {
+        "a": 1,
+        "rgb": 1678960
+      }
+    },
+    {
+      "query": "path:computacao/notas/typescript/object-types",
+      "color": {
+        "a": 1,
+        "rgb": 13206784
+      }
+    },
+    {
+      "query": "path:computacao/notas/typescript/type-manipulation",
+      "color": {
+        "a": 1,
+        "rgb": 13980033
+      }
+    },
+    {
+      "query": "tag:#roadmap OR tag:#carreira",
+      "color": {
+        "a": 1,
+        "rgb": 9471465
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7132754626224419,
+  "scale": 0.7124209716411193,
   "close": true
 }
