@@ -1,1 +1,3 @@
 **/node_modules/
+.claudian/
+.obsidian/plugins/realclaudian/data.json
