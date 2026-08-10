@@ -3,6 +3,10 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-09] revisar | Reorganização de more-on-functions/, object-types/ e type-manipulation/ em subpastas por tópico
+
+Seguindo o padrão já aplicado em `everyday-types/` e `the-basics/`, as demais pastas de `computacao/notas/typescript/` que ainda tinham notas soltas foram quebradas em subpastas temáticas: `more-on-functions/` ganhou `tipos-de-funcao/`, `generics/`, `parametros/`, `overloads-e-this/` e `retorno-e-assignabilidade/`; `object-types/` ganhou `modificadores-de-propriedade/`, `composicao-de-tipos/` e `arrays-e-tuplas/`; `type-manipulation/` ganhou `tipos-condicionais/` e `tipos-mapeados/`. Apenas `git mv`, nenhum conteúdo alterado; wikilinks no cofre usam nome de arquivo puro, então nada quebrou.
+
 ## [2026-08-08] arquivar | Criação do projeto Máquina de Estados de Pedido
 
 Criada a pasta projetos/maquina-estados-pedido/ com README.md detalhando requisitos (discriminated unions para Pedido e Evento, função de transição com narrowing exaustivo, type guard customizado, tsconfig strict) e links da documentação oficial do TypeScript a revisar antes de começar (Everyday Types, Narrowing, More on Functions, Indexed Access Types). Mini-projeto de consolidação prática do Bloco 0, sem lógica escrita pela IA. index.md atualizado.

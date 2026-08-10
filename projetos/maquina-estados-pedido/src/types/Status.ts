@@ -1,0 +1,1 @@
+declare type Status = "expirado" | "pago" | "cancelado" | "entregue";
