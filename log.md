@@ -3,6 +3,10 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-13] avançar | Sessão de estudo: início da Parte 9 (Classes)
+
+Sessão de 20 min ativos (1 bloco via /estudar) sobre a primeira metade de Classes do Handbook oficial: class fields e tipagem, modificadores (`public`/`private`/`protected`/`readonly`), parameter properties, constructors, methods e getters/setters. Exercícios práticos: escrever classe `Pessoa` com campo tipado, refatorar para parameter properties, e V/F sobre `private` ser checagem só em compile-time (sem privacidade real em runtime, ao contrário de `#campo`). Não deu tempo para `implements`, herança (`extends`/`super`), abstract classes e decorators — fica para a próxima sessão.
+
 ## [2026-08-11] revisar | Lint completo de computacao/notas/** — remoção de clipping bruto órfão
 
 Varredura de todo `computacao/notas/typescript/**`: nenhum wikilink quebrado, nenhuma imagem fora de `assets/`, index.md sincronizado, sem duplicatas, sem pastas genéricas, sem outras páginas órfãs, frontmatter completo em todas as notas restantes. Único achado: `everyday-types/everyday-types.md` era o clipping bruto original do Handbook (frontmatter fora do padrão do CLAUDE.md), órfão e com conteúdo já duplicado nas 17 notas atômicas de `everyday-types/*`. Removido após confirmação do dono.

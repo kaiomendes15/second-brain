@@ -210,11 +210,11 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/classes.html Você vai usar muito no NestJS (Bloco 1). Foco no que o Nest usa.
 
-- [ ] Class fields e tipagem
-- [ ] Modificadores: `public`, `private`, `protected`, `readonly`
-- [ ] Parameter properties (`constructor(private x: T)`) — o Nest ama isso
-- [ ] Constructors
-- [ ] Methods e getters/setters
+- [x] Class fields e tipagem
+- [x] Modificadores: `public`, `private`, `protected`, `readonly`
+- [x] Parameter properties (`constructor(private x: T)`) — o Nest ama isso
+- [x] Constructors
+- [x] Methods e getters/setters
 - [ ] `implements` (uma classe cumprindo uma interface)
 - [ ] Herança (`extends`) e `super`
 - [ ] Abstract classes e métodos
