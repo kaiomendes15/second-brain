@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado: 2026-08-08
+atualizado: 2026-08-11
 ---
 
 # Índice do Cofre
@@ -95,6 +95,28 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 - [[typescript-mapped-types]] — construir um tipo iterando as chaves de outro com `[Property in keyof Type]`.
 - [[typescript-mapping-modifiers]] — modificadores `readonly`/`?` e prefixos `+`/`-` em mapped types.
 - [[typescript-key-remapping-via-as]] — remapear chaves em mapped types com a cláusula `as`.
+
+#### TypeScript — Utility Types
+
+- [[typescript-partial]] — `Partial<Type>`: todas as propriedades como opcionais.
+- [[typescript-required]] — `Required<Type>`: todas as propriedades como obrigatórias.
+- [[typescript-readonly-utility]] — `Readonly<Type>`: todas as propriedades como `readonly`.
+- [[typescript-record]] — `Record<Keys, Type>`: constrói um object type a partir de chaves e valor.
+- [[typescript-pick]] — `Pick<Type, Keys>`: seleciona um subconjunto de propriedades.
+- [[typescript-omit]] — `Omit<Type, Keys>`: remove um subconjunto de propriedades.
+- [[typescript-exclude]] — `Exclude<UnionType, ExcludedMembers>`: remove membros de uma union.
+- [[typescript-extract]] — `Extract<Type, Union>`: extrai membros atribuíveis de uma union.
+- [[typescript-nonnullable]] — `NonNullable<Type>`: remove `null` e `undefined` de um tipo.
+- [[typescript-parameters]] — `Parameters<Type>`: tupla dos parâmetros de uma função.
+- [[typescript-constructorparameters]] — `ConstructorParameters<Type>`: tupla dos parâmetros de um construtor.
+- [[typescript-returntype]] — `ReturnType<Type>`: tipo de retorno de uma função.
+- [[typescript-instancetype]] — `InstanceType<Type>`: tipo de instância de uma função construtora.
+- [[typescript-noinfer]] — `NoInfer<Type>`: bloqueia inferência de generics num parâmetro.
+- [[typescript-thisparametertype]] — `ThisParameterType<Type>`: extrai o tipo do parâmetro `this`.
+- [[typescript-omitthisparameter]] — `OmitThisParameter<Type>`: remove o parâmetro `this` de uma função.
+- [[typescript-thistype]] — `ThisType<Type>`: marcador para tipo de `this` contextual.
+- [[typescript-awaited]] — `Awaited<Type>`: desembrulha `Promise`s recursivamente.
+- [[typescript-intrinsic-string-manipulation-types]] — `Uppercase`/`Lowercase`/`Capitalize`/`Uncapitalize`, overview.
 
 ## Projetos
 

@@ -3,6 +3,18 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-11] revisar | Lint completo de computacao/notas/** — remoção de clipping bruto órfão
+
+Varredura de todo `computacao/notas/typescript/**`: nenhum wikilink quebrado, nenhuma imagem fora de `assets/`, index.md sincronizado, sem duplicatas, sem pastas genéricas, sem outras páginas órfãs, frontmatter completo em todas as notas restantes. Único achado: `everyday-types/everyday-types.md` era o clipping bruto original do Handbook (frontmatter fora do padrão do CLAUDE.md), órfão e com conteúdo já duplicado nas 17 notas atômicas de `everyday-types/*`. Removido após confirmação do dono.
+
+## [2026-08-11] arquivar | Granularização de Utility Types.md (19 notas criadas em computacao/notas/typescript/utility-types)
+
+Clipping oficial do Handbook (`utility-types.html`) quebrado em 19 notas atômicas, organizadas em 6 subpastas temáticas dentro de `computacao/notas/typescript/utility-types/`: `transformacao-de-objetos/` (Partial, Required, Readonly, Record, Pick, Omit), `transformacao-de-unions/` (Exclude, Extract, NonNullable), `introspeccao-de-funcoes/` (Parameters, ConstructorParameters, ReturnType, InstanceType, NoInfer), `manipulacao-de-this/` (ThisParameterType, OmitThisParameter, ThisType), `assincronismo/` (Awaited) e `manipulacao-de-strings/` (overview de Uppercase/Lowercase/Capitalize/Uncapitalize, que aponta para Template Literal Types). Nenhum conflito com notas existentes. index.md atualizado com a nova seção; nota crua removida do inbox.
+
+## [2026-08-11] avançar | Sessão de estudo: Parte 8 (Utility Types) completa, Parte 7 confirmada como concluída
+
+Sessão de 30 min ativos (dois blocos de 15 min via /estudar) sobre Utility Types do Handbook oficial. Bloco 1 cobriu `Partial`, `Required`, `Readonly`, `Pick`, `Omit`, `Record` com exercícios práticos (função de atualização parcial de usuário, tabela de preços por categoria). Bloco 2 cobriu `ReturnType`, `Parameters`, `Awaited`, `NonNullable`, incluindo correção de um erro comum (ordem de composição `Awaited<ReturnType<T>>`, não o inverso). De quebra, resolvida uma inconsistência entre `estado.md` e `bloco-0.md`: o checkbox de Template Literal Types (Parte 7) já estava marcado como concluído no tracker, então a Parte 7 foi confirmada como fechada. Próximo passo: Parte 9 (Classes), com foco no que o NestJS usa.
+
 ## [2026-08-09] revisar | Reorganização de more-on-functions/, object-types/ e type-manipulation/ em subpastas por tópico
 
 Seguindo o padrão já aplicado em `everyday-types/` e `the-basics/`, as demais pastas de `computacao/notas/typescript/` que ainda tinham notas soltas foram quebradas em subpastas temáticas: `more-on-functions/` ganhou `tipos-de-funcao/`, `generics/`, `parametros/`, `overloads-e-this/` e `retorno-e-assignabilidade/`; `object-types/` ganhou `modificadores-de-propriedade/`, `composicao-de-tipos/` e `arrays-e-tuplas/`; `type-manipulation/` ganhou `tipos-condicionais/` e `tipos-mapeados/`. Apenas `git mv`, nenhum conteúdo alterado; wikilinks no cofre usam nome de arquivo puro, então nada quebrou.

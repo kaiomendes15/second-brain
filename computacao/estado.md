@@ -2,7 +2,7 @@
 tipo: estado
 area: computacao
 tags: [carreira, roadmap]
-atualizado: 2026-07-20
+atualizado: 2026-08-11
 ---
 
 # Estado — Onde estou agora
@@ -28,8 +28,8 @@ atualizado: 2026-07-20
 | 4 | Narrowing ⭐ | ✅ Completo |
 | 5 | More on Functions | ✅ Completo |
 | 6 | Object Types | ✅ Completo |
-| 7 | Type Manipulation | 🔶 Em progresso (falta só Template Literal Types) |
-| 8 | Utility Types ⭐ | ⬜ Não iniciado |
+| 7 | Type Manipulation | ✅ Completo |
+| 8 | Utility Types ⭐ | ✅ Completo |
 | 9 | Classes | ⬜ Não iniciado |
 | 10 | Modules | ⬜ Não iniciado |
 | 11 | Configuração (tsconfig) | ⬜ Não iniciado |
@@ -41,8 +41,8 @@ atualizado: 2026-07-20
 
 ## Próximos passos
 
-- [ ] **Agora:** fechar Parte 7 (Type Manipulation — só reconhecer): falta só Template Literal Types.
-- [ ] **Depois:** Parte 8 (Utility Types).
+- [ ] **Agora:** Parte 9 (Classes) — foco no que o NestJS usa (parameter properties, decorators só reconhecer).
+- [ ] **Depois:** Parte 10 (Modules) e Parte 11 (Configuração/tsconfig).
 - [ ] Ao longo do bloco: criar notas granulares por página estudada (mesmo padrão das notas de The Basics).
 - [ ] Fechar o bloco com o **projeto-prova** (CLI de tarefas ou API minúscula, 100% tipada, sem IA gerar a lógica).
 

@@ -193,16 +193,16 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/utility-types.html Não decore todos. Domine os que aparecem em todo código profissional.
 
-- [ ] `Partial<T>`
-- [ ] `Required<T>`
-- [ ] `Readonly<T>`
-- [ ] `Pick<T, Keys>`
-- [ ] `Omit<T, Keys>`
-- [ ] `Record<Keys, T>`
-- [ ] `Returntype<T>`
-- [ ] `Parameters<T>`
-- [ ] `Awaited<T>` (importante pra async)
-- [ ] `NonNullable<T>`
+- [x] `Partial<T>`
+- [x] `Required<T>`
+- [x] `Readonly<T>`
+- [x] `Pick<T, Keys>`
+- [x] `Omit<T, Keys>`
+- [x] `Record<Keys, T>`
+- [x] `Returntype<T>`
+- [x] `Parameters<T>`
+- [x] `Awaited<T>` (importante pra async)
+- [x] `NonNullable<T>`
 
 ---
 
