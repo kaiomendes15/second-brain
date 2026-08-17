@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado: 2026-08-11
+atualizado: 2026-08-17
 ---
 
 # Índice do Cofre
@@ -17,6 +17,21 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 ### Notas de CS
 
 - [[typescript-structural-type-system]] — conceito de Structural Typing (Duck Typing) no TypeScript.
+
+#### Computação Gráfica — Vetores
+
+- [[computacao-grafica-interpretacoes-de-vetores]] — as três perspectivas (física, CS, matemática) sobre o que é um vetor, incluindo a notação de n-tupla.
+- [[computacao-grafica-sistema-de-coordenadas]] — eixos, origem, coordenadas de um vetor em 2D/3D.
+- [[computacao-grafica-soma-de-vetores]] — soma tip-to-tail e soma por componentes.
+- [[computacao-grafica-multiplicacao-por-escalar]] — scaling: esticar, encolher, inverter um vetor.
+
+#### Computação Gráfica — Pontos, Vetores e Normais
+
+- [[computacao-grafica-pontos-vs-vetores]] — diferença entre ponto (posição) e vetor (direção + magnitude).
+- [[computacao-grafica-coordenadas-homogeneas]] — pontos homogêneos (x, y, z, w).
+- [[computacao-grafica-transformacoes-lineares]] — translação (pontos) vs. rotação (vetores).
+- [[computacao-grafica-magnitude-e-normalizacao]] — comprimento de um vetor e normalização.
+- [[computacao-grafica-normais]] — normal de superfície e seu papel em shading.
 
 #### TypeScript — The Basics
 

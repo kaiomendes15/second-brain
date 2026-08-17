@@ -3,6 +3,14 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-17] revisar | Lint de computacao-grafica: fusão de duplicata
+
+Notas [[computacao-grafica-interpretacoes-de-vetores]] e computacao-grafica-vetor-como-tupla continham a mesma ideia central (vetor como n-tupla) vindas de fontes diferentes. Fundidas em [[computacao-grafica-interpretacoes-de-vetores]] (seção "Perspectiva da Ciência da Computação" passou a incluir a notação de n-tupla); nota antiga removida, link em [[computacao-grafica-pontos-vs-vetores]] e index.md atualizados.
+
+## [2026-08-17] arquivar | Granularização de Untitled.md — Points, Vectors and Normals (6 notas criadas em computacao/notas/computacao-grafica/pontos-vetores-normais/)
+
+## [2026-08-17] arquivar | Granularização de Vectors.md (4 notas criadas em computacao/notas/computacao-grafica/vetores/)
+
 ## [2026-08-13] avançar | Sessão de estudo: início da Parte 9 (Classes)
 
 Sessão de 20 min ativos (1 bloco via /estudar) sobre a primeira metade de Classes do Handbook oficial: class fields e tipagem, modificadores (`public`/`private`/`protected`/`readonly`), parameter properties, constructors, methods e getters/setters. Exercícios práticos: escrever classe `Pessoa` com campo tipado, refatorar para parameter properties, e V/F sobre `private` ser checagem só em compile-time (sem privacidade real em runtime, ao contrário de `#campo`). Não deu tempo para `implements`, herança (`extends`/`super`), abstract classes e decorators — fica para a próxima sessão.
