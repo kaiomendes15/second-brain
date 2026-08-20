@@ -215,10 +215,10 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 - [x] Parameter properties (`constructor(private x: T)`) — o Nest ama isso
 - [x] Constructors
 - [x] Methods e getters/setters
-- [ ] `implements` (uma classe cumprindo uma interface)
-- [ ] Herança (`extends`) e `super`
-- [ ] Abstract classes e métodos
-- [ ] Decorators (só reconhecer — o Nest usa muito, você aprofunda no Bloco 1)
+- [x] `implements` (uma classe cumprindo uma interface)
+- [x] Herança (`extends`) e `super`
+- [x] Abstract classes e métodos
+- [x] Decorators (só reconhecer — o Nest usa muito, você aprofunda no Bloco 1)
 
 ---
 
@@ -226,11 +226,11 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/docs/handbook/2/modules.html
 
-- [ ] `import` / `export` (ES Modules)
-- [ ] Default export vs named export
-- [ ] `import type` (importar só o tipo)
-- [ ] Como TS resolve módulos (visão geral)
-- [ ] Diferença rápida CommonJS vs ESM (você vai esbarrar nisso no Node)
+- [x] `import` / `export` (ES Modules)
+- [x] Default export vs named export
+- [x] `import type` (importar só o tipo)
+- [x] Como TS resolve módulos (visão geral)
+- [x] Diferença rápida CommonJS vs ESM (você vai esbarrar nisso no Node)
 
 ---
 

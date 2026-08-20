@@ -3,6 +3,14 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-19] avançar | Sessão de estudo: conclusão da Parte 10 (Modules)
+
+20 min ativos, 1 bloco de pomodoro. Cobertos: `import`/`export` (nomeado vs default), `import type`, resolução de módulos, CommonJS (síncrono) vs ESM (assíncrono) e como `"type": "module"`/extensão de arquivo decide o modo no Node. Fixação com 4 perguntas (código, conceitual, V/F, cenário) — um erro de sintaxe corrigido (default export importado com chaves) e um V/F errado (achava CommonJS assíncrono), ambos esclarecidos. Parte 10 (Modules) fechada por completo; próximo passo é Parte 11 (Configuração/tsconfig).
+
+## [2026-08-17] avançar | Sessão de estudo: conclusão da Parte 9 (Classes)
+
+40 min ativos, 2 blocos de pomodoro. Cobertos: `implements`, herança (`extends`/`super`), abstract classes e métodos abstratos, decorators (reconhecimento de sintaxe). Fixação com exercícios de código (interface + classe, herança com `super`, abstract class) e conceituais, todos corretos. Parte 9 (Classes) fechada por completo; próximo passo é Parte 10 (Modules).
+
 ## [2026-08-17] revisar | Lint de computacao-grafica: fusão de duplicata
 
 Notas [[computacao-grafica-interpretacoes-de-vetores]] e computacao-grafica-vetor-como-tupla continham a mesma ideia central (vetor como n-tupla) vindas de fontes diferentes. Fundidas em [[computacao-grafica-interpretacoes-de-vetores]] (seção "Perspectiva da Ciência da Computação" passou a incluir a notação de n-tupla); nota antiga removida, link em [[computacao-grafica-pontos-vs-vetores]] e index.md atualizados.

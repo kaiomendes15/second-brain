@@ -2,7 +2,7 @@
 tipo: estado
 area: computacao
 tags: [carreira, roadmap]
-atualizado: 2026-08-13
+atualizado: 2026-08-19
 ---
 
 # Estado — Onde estou agora
@@ -30,8 +30,8 @@ atualizado: 2026-08-13
 | 6 | Object Types | ✅ Completo |
 | 7 | Type Manipulation | ✅ Completo |
 | 8 | Utility Types ⭐ | ✅ Completo |
-| 9 | Classes | 🔶 Em progresso (falta implements, extends/super, abstract, decorators) |
-| 10 | Modules | ⬜ Não iniciado |
+| 9 | Classes | ✅ Completo |
+| 10 | Modules | ✅ Completo |
 | 11 | Configuração (tsconfig) | ⬜ Não iniciado |
 | — | Projeto-prova | ⬜ Não iniciado |
 
@@ -41,8 +41,8 @@ atualizado: 2026-08-13
 
 ## Próximos passos
 
-- [ ] **Agora:** Parte 9 (Classes) — falta `implements`, herança (`extends`/`super`), abstract classes e decorators (só reconhecer).
-- [ ] **Depois:** Parte 10 (Modules) e Parte 11 (Configuração/tsconfig).
+- [ ] **Agora:** Parte 11 (Configuração/tsconfig) — `target`, `module`, `lib`, `strict`, `esModuleInterop`, `moduleResolution`, `outDir`/`rootDir`, `skipLibCheck`.
+- [ ] **Depois:** iniciar o projeto-prova (CLI de tarefas, API minúscula ou parser/validador).
 - [ ] Ao longo do bloco: criar notas granulares por página estudada (mesmo padrão das notas de The Basics).
 - [ ] Fechar o bloco com o **projeto-prova** (CLI de tarefas ou API minúscula, 100% tipada, sem IA gerar a lógica).
 
