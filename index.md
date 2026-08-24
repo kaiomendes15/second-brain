@@ -20,6 +20,20 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 
 - [[typescript-structural-type-system]] — conceito de Structural Typing (Duck Typing) no TypeScript.
 
+#### Integração de Sistemas — Mensageria
+
+- [[integracao-sistemas-mensageria]] — comunicação assíncrona/indireta entre sistemas via message broker.
+- [[integracao-sistemas-message-broker]] — middleware MOM que desacopla producers e receivers; componentes do fluxo.
+- [[integracao-sistemas-message-queue]] — estrutura de fila que armazena mensagens até o consumo.
+- [[integracao-sistemas-comunicacao-assincrona]] — sistemas seguem funcionando mesmo com outra aplicação da integração fora do ar.
+- [[integracao-sistemas-event]] — a mensagem em si (JSON, XML, bytes).
+- [[integracao-sistemas-producer]] — aplicação que envia mensagens para uma queue.
+- [[integracao-sistemas-consumer]] — aplicação que consome mensagens da fila.
+- [[integracao-sistemas-exchange]] — roteador de mensagens (direct, fanout, topic, headers).
+- [[integracao-sistemas-amqp]] — Advanced Message Queuing Protocol.
+- [[integracao-sistemas-point-to-point]] — modelo de distribuição um-para-um, entrega única garantida.
+- [[integracao-sistemas-publish-subscribe]] — modelo de distribuição um-para-muitos via tópicos.
+
 #### Java — Class Loaders
 
 - [[java-classloader-definicao]] — o que é um class loader, suas funções e os três tipos embutidos (bootstrap, platform, system).

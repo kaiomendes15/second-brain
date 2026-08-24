@@ -3,6 +3,8 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-24] arquivar | Granularização de mensageria (11 notas criadas em computacao/notas/integracao-sistemas/mensageria/)
+
 ## [2026-08-21] avançar | Preferência de abordagem prática registrada em estado-dtec
 
 Dono achou o formato padrão das fases do roadmap-dtec (checklist teórico extenso antes da prática) alongado demais. Registrada em [[estado-dtec]] a preferência de inverter a ordem de consumo por fase: ler critério de conclusão + prática primeiro, ir direto pra implementação no `sistema-academico`, e usar os checklists de cada Parte só sob demanda como glossário de referência (mesma coisa para as tabelas De-Para Spring→Quarkus). Vale a partir da Fase 3 (Quarkus Core); Fases 0–1 continuam pré-requisito mínimo. Roadmap em si não foi alterado (é intocável).
