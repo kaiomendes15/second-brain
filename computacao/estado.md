@@ -35,7 +35,7 @@ atualizado: 2026-08-19
 | 8 | Utility Types ⭐ | ✅ Completo |
 | 9 | Classes | ✅ Completo |
 | 10 | Modules | ✅ Completo |
-| 11 | Configuração (tsconfig) | ⬜ Não iniciado |
+| 11 | Configuração (tsconfig) | ✅ Completo |
 | — | Projeto-prova | ⬜ Não iniciado |
 
 **Notas criadas até aqui:** `computacao/notas/typescript/` — Structural Typing (Parte 1) + 11 notas granulares de The Basics (Parte 2).
@@ -44,8 +44,7 @@ atualizado: 2026-08-19
 
 ## Próximos passos
 
-- [ ] **Agora:** Parte 11 (Configuração/tsconfig) — `target`, `module`, `lib`, `strict`, `esModuleInterop`, `moduleResolution`, `outDir`/`rootDir`, `skipLibCheck`.
-- [ ] **Depois:** iniciar o projeto-prova (CLI de tarefas, API minúscula ou parser/validador).
+- [ ] **Agora:** projeto-prova em andamento — [[projetos/xadrez-typescript/README|Xadrez em TypeScript]] (decisão de sessão anterior, substitui as 3 opções sugeridas pelo roadmap). Escopo: tabuleiro + peças + geração de movimentos legais, sem xeque/xeque-mate/roque/en passant.
 - [ ] Ao longo do bloco: criar notas granulares por página estudada (mesmo padrão das notas de The Basics).
 - [ ] Fechar o bloco com o **projeto-prova** (CLI de tarefas ou API minúscula, 100% tipada, sem IA gerar a lógica).
 

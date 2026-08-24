@@ -28,7 +28,7 @@ Liste os arquivos `.md` em `inbox/` (ignore `.gitkeep`). Se o usuário passou um
 
 Se não houver nenhuma nota para processar, informe e pare.
 
-Se houver mais de uma nota, avise a fila antes de começar (ex: "3 notas na fila: Object Types.md, More on Functions.md, ..."). Processe **uma nota por vez**, do início ao fim (passos 2-8), antes de passar para a próxima.
+Se houver mais de uma nota, avise a fila antes de começar (ex: "3 notas na fila: Object Types.md, More on Functions.md, ..."). Processe **uma nota por vez**, do início ao fim (passos 2-9), antes de passar para a próxima.
 
 ### 2. Leitura e análise da nota
 
@@ -122,11 +122,28 @@ fonte_url: {url da nota de origem, se disponível}
 - Preserve exemplos de código da nota de origem; reformate se necessário para clareza
 - Traduza/normalize para português nas explicações, mantendo termos técnicos em inglês
 
-### 7. Remover a nota de origem do inbox
+### 7. Colorir o novo nó no grafo (se o destino é uma pasta nova)
+
+Se o passo 3 criou um diretório de destino que não existia antes (novo domínio e/ou novo tópico), adicione um grupo de cor para ele no grafo do Obsidian, seguindo o padrão já usado em `.obsidian/graph.json` → `colorGroups`:
+
+```json
+{
+  "query": "path:computacao/notas/{dominio}/{topico}",
+  "color": { "a": 1, "rgb": {inteiro} }
+}
+```
+
+- **Query:** `path:{caminho-completo-da-pasta-criada}` (mesmo caminho do passo 3, sem barra final).
+- **Cor:** escolha um `rgb` (inteiro decimal, não hex) que ainda não apareça em nenhum `colorGroups` existente e que seja visualmente distinto das cores já usadas — não repita nem chegue perto de um tom já alocado a outro domínio/tópico.
+- Adicione o objeto ao final do array `colorGroups`, sem alterar as entradas existentes.
+- Se o destino já existia (pasta reaproveitada), pule este passo — não crie cor duplicada nem edite o grupo existente.
+- Se, além da pasta, o lote introduzir uma **tag nova** que ainda não aparece em nenhuma nota do cofre (fora do frontmatter desta nota) e essa tag for central o suficiente para merecer destaque próprio no grafo (como o grupo existente `tag:#roadmap OR tag:#carreira`), você pode propor ao usuário um grupo adicional por tag — mas isso é sob confirmação, não automático.
+
+### 8. Remover a nota de origem do inbox
 
 Depois que todas as notas granulares do lote foram criadas (e confirmadas), apague o arquivo processado de `inbox/`. A nota crua não sobrevive como arquivo — o conteúdo dela agora vive dividido nas notas atômicas.
 
-### 8. Atualizar index.md e log.md
+### 9. Atualizar index.md e log.md
 
 **index.md:** adicione cada nova nota criada na seção correspondente à sua área. Formato de uma linha:
 ```
@@ -139,7 +156,7 @@ Se o destino é uma pasta nova, crie também a subseção correspondente no índ
 ## [AAAA-MM-DD] arquivar | Granularização de {nome-da-nota-de-origem} ({N} notas criadas em {caminho-de-destino})
 ```
 
-Repita os passos 2-8 para a próxima nota da fila, se houver.
+Repita os passos 2-9 para a próxima nota da fila, se houver.
 
 ---
 

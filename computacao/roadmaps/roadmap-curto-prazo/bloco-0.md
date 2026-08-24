@@ -238,13 +238,13 @@ Você fecha o Bloco 0 quando consegue, sem consultar:
 
 > 📄 https://www.typescriptlang.org/tsconfig/
 
-- [ ] Montar um `tsconfig.json` do zero
-- [ ] `target`, `module`, `lib`
-- [ ] `strict` e as flags que ele agrupa
-- [ ] `esModuleInterop`
-- [ ] `moduleResolution`
-- [ ] `outDir`, `rootDir`
-- [ ] `skipLibCheck` (e por que costuma ficar `true`)
+- [x] Montar um `tsconfig.json` do zero
+- [x] `target`, `module`, `lib`
+- [x] `strict` e as flags que ele agrupa
+- [x] `esModuleInterop`
+- [x] `moduleResolution`
+- [x] `outDir`, `rootDir`
+- [x] `skipLibCheck` (e por que costuma ficar `true`)
 
 ---
 

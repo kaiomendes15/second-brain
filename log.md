@@ -120,3 +120,20 @@ Nota arquivada em `computacao/notas/typescript-structural-type-system.md`. Front
 Estrutura criada: blocos `computacao/`, `projetos/`, `pessoal/` + `inbox/`, `index.md`, `log.md`, `CLAUDE.md`.
 Roadmaps de curto e longo prazo semeados em `computacao/roadmaps/` como referência intocável.
 Primeira versão de `computacao/estado.md` derivada dos roadmaps.
+
+## [2026-08-24] avançar | Bloco 0 (TypeScript) — Parte 11 concluída (tsconfig)
+
+Sessão de 20 min ativos, trilha freelance/vaga remota. Cobertura completa da Parte 11
+(tsconfig.json): `target`, `module`, `lib`, `strict` (e flags agrupadas), `esModuleInterop`,
+`moduleResolution`, `outDir`/`rootDir`, `skipLibCheck`. Fixação com 4 exercícios (cenário,
+V/F, código, conceitual) — todos com bom domínio, exceto uso de `strict: true` como atalho
+(usuário havia configurado flags individuais em vez do agregador). Bloco 0 fica com apenas o
+projeto-prova pendente para fechar.
+
+## [2026-08-24] avançar | Projeto-prova do Bloco 0 iniciado: Xadrez em TypeScript
+
+Estrutura criada em `projetos/xadrez-typescript/` (package.json, tsconfig strict, README com
+requisitos). Escopo definido junto ao dono: tabuleiro + peças + geração de movimentos legais
+por tipo de peça, sem xeque/xeque-mate/roque/en passant — projeto substitui as 3 opções
+sugeridas pelo roadmap (decisão de sessão anterior). `npm install` rodado, ambiente validado
+com `tsx`. Lógica ainda não escrita — fica a cargo do dono.

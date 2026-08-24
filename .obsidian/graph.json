@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 9471465
       }
+    },
+    {
+      "query": "path:computacao/notas/integracao-sistemas/mensageria",
+      "color": {
+        "a": 1,
+        "rgb": 15158332
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.635342647946005,
+  "scale": 0.5805616216007293,
   "close": true
 }
