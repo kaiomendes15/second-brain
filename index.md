@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado: 2026-08-17
+atualizado: 2026-08-21
 ---
 
 # Índice do Cofre
@@ -12,11 +12,18 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 
 - [[computacao/roadmaps/roadmap-curto-prazo/index]] — plano de execução de 6 meses (Bloco 0→5) rumo à vaga remota. *Referência intocável.*
 - [[roadmap-longo-prazo]] — roadmap de 60 módulos, Júnior → Staff. *Referência intocável.*
-- [[estado]] — onde estou agora / próximos passos. *Mantido pela IA.*
+- [[computacao/roadmaps/roadmap-dtec/index]] — trilha Kotlin/Quarkus/Arquitetura Hexagonal, motivada pelo emprego atual (DTec). *Referência intocável.*
+- [[estado]] — trilha freelance/vaga remota: onde estou agora / próximos passos. *Mantido pela IA.*
+- [[estado-dtec]] — trilha DTec: onde estou agora / próximos passos. *Mantido pela IA.*
 
 ### Notas de CS
 
 - [[typescript-structural-type-system]] — conceito de Structural Typing (Duck Typing) no TypeScript.
+
+#### Java — Class Loaders
+
+- [[java-classloader-definicao]] — o que é um class loader, suas funções e os três tipos embutidos (bootstrap, platform, system).
+- [[java-classloader-modelo-de-delegacao]] — como a JVM localiza e carrega uma classe via busca ordenada (delegation model).
 
 #### Computação Gráfica — Vetores
 

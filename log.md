@@ -3,6 +3,20 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-21] avançar | Preferência de abordagem prática registrada em estado-dtec
+
+Dono achou o formato padrão das fases do roadmap-dtec (checklist teórico extenso antes da prática) alongado demais. Registrada em [[estado-dtec]] a preferência de inverter a ordem de consumo por fase: ler critério de conclusão + prática primeiro, ir direto pra implementação no `sistema-academico`, e usar os checklists de cada Parte só sob demanda como glossário de referência (mesma coisa para as tabelas De-Para Spring→Quarkus). Vale a partir da Fase 3 (Quarkus Core); Fases 0–1 continuam pré-requisito mínimo. Roadmap em si não foi alterado (é intocável).
+
+## [2026-08-21] arquivar | Granularização de java-classloader (2 notas criadas em computacao/notas/java/class-loaders/)
+
+## [2026-08-21] revisar | Skills e CLAUDE.md ajustados para múltiplas trilhas ativas
+
+Skills `/estudar` e `/fixar` tinham a auto-detecção de tema (quando chamadas sem argumento) hardcoded a `computacao/estado.md` + `roadmap-curto-prazo/`, ignorando a trilha DTec recém-criada. Ajustadas para ler todos os `computacao/estado*.md` existentes e perguntar ao usuário qual trilha seguir quando mais de uma tiver progresso/próximo passo pendente; passaram a reconhecer `fase-N.md` (dtec) como arquivo de detalhe válido ao lado de `bloco-N.md`. `/lint` e `/granularizar` não precisaram de ajuste (já eram agnósticos a roadmap específico). `CLAUDE.md` também generalizado: tabela "quem edita o quê", descrição da operação Avançar e diagrama de estrutura agora tratam `computacao/estado*.md` como padrão (uma trilha por arquivo), não mais um único `estado.md`.
+
+## [2026-08-21] revisar | Roadmap DTec (Kotlin/Quarkus) integrado ao cofre
+
+Dono trouxe um novo roadmap de 10 fases (`computacao/roadmaps/roadmap-dtec/`) para efetivação júnior na stack Kotlin+Quarkus do emprego atual (DTec), guiado por ADR-001/ADR-002. Validação encontrou desvios de convenção: nomes de arquivo em PascalCase (corrigido para kebab-case), frontmatter sem os campos mínimos `tipo/area/tags/atualizado` (adicionado), e ausência de `index.md` de visão geral (criado, seguindo o padrão do roadmap-curto-prazo). Decisão do dono: trilha ganha estado vivo próprio em `computacao/estado-dtec.md` (não fundido em `estado.md`). Colisão de agenda entre esta trilha e o Bloco 0/freelance (ambas reivindicam a mesma janela de estudo a partir de 24/08) foi apenas sinalizada em ambos os arquivos de estado — divisão de tempo ainda não decidida. `index.md` geral atualizado com as novas entradas.
+
 ## [2026-08-19] avançar | Sessão de estudo: conclusão da Parte 10 (Modules)
 
 20 min ativos, 1 bloco de pomodoro. Cobertos: `import`/`export` (nomeado vs default), `import type`, resolução de módulos, CommonJS (síncrono) vs ESM (assíncrono) e como `"type": "module"`/extensão de arquivo decide o modo no Node. Fixação com 4 perguntas (código, conceitual, V/F, cenário) — um erro de sintaxe corrigido (default export importado com chaves) e um V/F errado (achava CommonJS assíncrono), ambos esclarecidos. Parte 10 (Modules) fechada por completo; próximo passo é Parte 11 (Configuração/tsconfig).

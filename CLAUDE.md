@@ -31,7 +31,7 @@ computacao/        # Computação & Carreira (faculdade + carreira + estudo de C
   roadmaps/        #   REFERÊNCIA intocável — docs estratégicos do dono
     roadmap-curto-prazo/   #   pasta: index.md (visão geral) + bloco-N.md (detalhe por bloco)
     roadmap-longo-prazo.md #   biblioteca de 60 módulos Pleno → Staff
-  estado.md        #   nota VIVA: onde estou / próximos passos (você mantém)
+  estado*.md       #   nota(s) VIVA(s): onde estou / próximos passos, uma por trilha ativa (você mantém)
   notas/           #   notas de estudo de CS, fontes destiladas, conceitos
 projetos/          # um diretório por projeto ("o projeto é o currículo")
 pessoal/
@@ -45,7 +45,7 @@ assets/            # imagens/anexos
 | Caminho | Dono | Regra |
 |---|---|---|
 | `computacao/roadmaps/*` | **só o dono** | Você LÊ para orientar. **Nunca edite.** |
-| `computacao/estado.md`, `index.md`, `log.md` | **você (IA)** | Mantenha atualizados. |
+| `computacao/estado*.md` (uma trilha ativa por arquivo, ex.: `estado.md`, `estado-dtec.md`), `index.md`, `log.md` | **você (IA)** | Mantenha atualizados. |
 | `inbox/`, `*/notas/`, `projetos/`, `pessoal/` | colaborativo | Arquive/conecte sob demanda. |
 
 > **Roadmap de curto prazo é uma pasta, não um arquivo.** `roadmap-curto-prazo/index.md` é a
@@ -85,8 +85,10 @@ Nenhuma roda automaticamente. Você age quando o dono pede. Mantém manutenção
   frontmatter e `[[links]]`, esvazie o item do inbox, atualize `index.md` e acrescente linha em `log.md`.
 - **Estudar** — explique, revise ou faça perguntas sobre um tema. Boas explicações podem virar
   nota (`tipo: nota`/`conceito`) em `computacao/notas/` ou `pessoal/`.
-- **Avançar** — leia o roadmap relevante + `computacao/estado.md`; diga o próximo passo concreto;
-  conecte o que ele estuda com a freelance/projeto; **atualize `estado.md`, nunca os roadmaps**.
+- **Avançar** — leia o roadmap relevante + o arquivo de estado da trilha correspondente (`computacao/estado*.md`
+  — pode existir mais de um, uma trilha ativa por arquivo); diga o próximo passo concreto; conecte o que ele
+  estuda com a freelance/projeto/trilha em questão; **atualize o `estado*.md` da trilha, nunca os roadmaps**.
+  Se houver mais de uma trilha com passo pendente e não estiver claro qual seguir, pergunte antes de agir.
 - **Perguntar** — leia `index.md` primeiro para se orientar, abra as páginas relevantes, responda
   com citações via `[[links]]`. Se a resposta for valiosa, ofereça arquivá-la como nova nota.
 - **Revisar** (lint, sob demanda) — procure contradições, conteúdo obsoleto, páginas órfãs,

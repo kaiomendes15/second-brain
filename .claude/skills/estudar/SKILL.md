@@ -27,7 +27,10 @@ Organiza uma sessão de estudo autoguiada em blocos de pomodoro (padrão 20 min 
 
 **Tema:**
 - Se recebido como argumento, usar diretamente.
-- Se ausente: ler `computacao/estado.md` (tabela de progresso + seção "Próximos passos") e o `bloco-N.md` ativo em `computacao/roadmaps/roadmap-curto-prazo/` para identificar o item mais recente ("Em progresso" ou o próximo não iniciado).
+- Se ausente: o cofre pode ter mais de uma trilha ativa, cada uma com seu próprio arquivo de estado vivo (`computacao/estado.md` para a trilha freelance/vaga remota, `computacao/estado-dtec.md` para a trilha DTec, e possíveis outras que venham a existir seguindo o mesmo padrão `computacao/estado*.md`). Ler todos os arquivos `computacao/estado*.md` existentes.
+  - Se só uma trilha tiver um próximo passo pendente (as outras totalmente concluídas ou sem próximo passo definido), usar essa trilha diretamente.
+  - Se mais de uma tiver próximo passo pendente, **perguntar ao usuário qual trilha estudar nesta sessão** antes de prosseguir — nunca escolher sozinho entre trilhas concorrentes.
+  - Depois de identificada a trilha, usar sua tabela de progresso + seção "Próximos passos", e abrir o arquivo de detalhe do roadmap correspondente (`bloco-N.md` em `roadmap-curto-prazo/`, `fase-N.md` em `roadmap-dtec/`, ou equivalente) para identificar o item mais recente ("Em progresso" ou o próximo não iniciado).
 
 **Fonte:**
 - Procurar o link 📄 associado ao item identificado no `bloco-N.md`.
@@ -67,14 +70,14 @@ Quando o usuário encerrar a sessão:
 
 1. Resumir o que foi coberto.
 2. **Confirmar com o usuário** quais itens ele considera concluídos antes de registrar — nunca assumir.
-3. Atualizar `computacao/estado.md`: tabela de progresso do bloco + seção "Próximos passos".
+3. Atualizar o arquivo de estado da trilha usada nesta sessão (`computacao/estado.md`, `computacao/estado-dtec.md` ou equivalente): tabela de progresso do bloco/fase + seção "Próximos passos".
 4. Adicionar entrada em `log.md`:
    ```markdown
    ## [AAAA-MM-DD] avançar | <título resumindo a sessão>
 
    <parágrafo: tempo ativo, tópicos cobertos, o que ficou pendente>
    ```
-5. Marcar no `bloco-N.md` correspondente os checkboxes (`- [ ]` → `- [x]`) dos itens que o usuário confirmou como concluídos — **apenas o estado do checkbox**, nunca alterar texto, links, estimativas ou estrutura do arquivo.
+5. Marcar no arquivo de detalhe correspondente (`bloco-N.md` ou `fase-N.md`) os checkboxes (`- [ ]` → `- [x]`) dos itens que o usuário confirmou como concluídos — **apenas o estado do checkbox**, nunca alterar texto, links, estimativas ou estrutura do arquivo.
 
 Não criar `revisoes.md` nem qualquer outro arquivo de registro por bloco ou por sessão.
 
@@ -86,5 +89,6 @@ Não criar `revisoes.md` nem qualquer outro arquivo de registro por bloco ou por
 - Não avançar de bloco sem confirmação explícita do usuário de que terminou a leitura/exercícios.
 - Não aplicar uma fixação longa estilo `/fixar` — limite de poucos exercícios por bloco, feedback de até 3 linhas, sem nota numérica.
 - Não criar arquivos de revisão por bloco ou por sessão.
-- Não editar `computacao/roadmaps/**` além de marcar checkboxes já confirmados pelo usuário no `bloco-N.md` — nunca mexer em texto, links, estimativas ou estrutura, e nunca tocar em `roadmap-curto-prazo/index.md` ou `roadmap-longo-prazo.md`.
+- Não editar `computacao/roadmaps/**` além de marcar checkboxes já confirmados pelo usuário no arquivo de detalhe da fase/bloco ativo (`bloco-N.md`, `fase-N.md`) — nunca mexer em texto, links, estimativas ou estrutura, e nunca tocar nos arquivos de visão geral de nenhum roadmap (`roadmap-curto-prazo/index.md`, `roadmap-dtec/index.md`, `roadmap-longo-prazo.md`).
+- Não escolher sozinho entre trilhas concorrentes quando mais de uma tiver próximo passo pendente — perguntar ao usuário qual seguir.
 - Não inventar conteúdo da fonte — a fixação se baseia no que o usuário efetivamente leu.

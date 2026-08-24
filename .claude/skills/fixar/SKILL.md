@@ -26,7 +26,10 @@ Conduz uma sessão interativa de reforço: faz perguntas práticas uma por vez, 
 
 **Se recebeu argumento de tema:** usar esse tema diretamente.
 
-**Se não recebeu argumento:** ler `computacao/estado.md` e o arquivo `bloco-N.md` do bloco atual (`computacao/roadmaps/roadmap-curto-prazo/`) para identificar o tópico estudado mais recentemente (parte em "Em progresso" ou a última parte concluída).
+**Se não recebeu argumento:** o cofre pode ter mais de uma trilha ativa, cada uma com seu próprio arquivo de estado vivo (`computacao/estado.md` para a trilha freelance/vaga remota, `computacao/estado-dtec.md` para a trilha DTec, e possíveis outras seguindo o mesmo padrão `computacao/estado*.md`). Ler todos os arquivos `computacao/estado*.md` existentes.
+- Se só uma trilha tiver progresso recente registrado, usar essa trilha diretamente.
+- Se mais de uma tiver progresso recente, **perguntar ao usuário qual trilha revisar nesta sessão** antes de prosseguir.
+- Depois de identificada a trilha, ler seu arquivo de estado e o arquivo de detalhe correspondente do roadmap (`bloco-N.md` em `roadmap-curto-prazo/`, `fase-N.md` em `roadmap-dtec/`, ou equivalente) para identificar o tópico estudado mais recentemente (parte em "Em progresso" ou a última parte concluída).
 
 Em seguida:
 - Identificar o diretório de notas correspondente ao tema (ex: `everyday-types` → `computacao/notas/typescript/everyday-types/`)
@@ -108,4 +111,5 @@ Usar o diretório mais específico possível para o tema:
 - Não dar feedback longo — um erro recebe no máximo 3 linhas: o que errou, a correção, o exemplo certo
 - Não criar pastas novas — `revisoes.md` vai sempre em um diretório já existente
 - Não editar arquivos em `computacao/roadmaps/` — são intocáveis
+- Não escolher sozinho entre trilhas concorrentes (`computacao/estado*.md`) quando mais de uma tiver progresso recente — perguntar ao usuário qual seguir
 - Não sobrescrever `revisoes.md` — sempre fazer append ao final

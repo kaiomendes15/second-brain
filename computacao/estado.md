@@ -8,7 +8,10 @@ atualizado: 2026-08-19
 # Estado — Onde estou agora
 
 > Nota viva mantida pela IA. Os roadmaps ([[computacao/roadmaps/roadmap-curto-prazo/index]], [[roadmap-longo-prazo]]) são a
-> referência intocável; esta página é o "você está aqui". Atualizar na operação **Avançar**.
+> referência intocável; esta página é o "você está aqui" da trilha **freelance/vaga remota**. Atualizar na operação **Avançar**.
+>
+> ⚠️ Existe uma segunda trilha rodando em paralelo — [[estado-dtec]], motivada pelo emprego atual
+> (Kotlin/Quarkus/DTec). A divisão de tempo entre as duas ainda não foi decidida (ver aviso lá).
 
 ## Foco atual
 
