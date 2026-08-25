@@ -22,6 +22,7 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 
 #### Integração de Sistemas — Mensageria
 
+- [[computacao/notas/integracao-sistemas/mensageria/guide|Guia de Leitura — Mensageria]] — ordem de leitura sugerida entre as notas abaixo.
 - [[integracao-sistemas-mensageria]] — comunicação assíncrona/indireta entre sistemas via message broker.
 - [[integracao-sistemas-message-broker]] — middleware MOM que desacopla producers e receivers; componentes do fluxo.
 - [[integracao-sistemas-message-queue]] — estrutura de fila que armazena mensagens até o consumo.
@@ -36,6 +37,7 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 
 #### Integração de Sistemas — Apache Kafka
 
+- [[computacao/notas/integracao-sistemas/kafka/guide|Guia de Leitura — Apache Kafka]] — ordem de leitura sugerida entre as notas abaixo.
 - [[kafka-visao-geral]] — o que é o Apache Kafka: servers e clients sobre protocolo TCP.
 - [[kafka-cluster-e-brokers]] — clusters de servidores e a storage layer (broker).
 - [[kafka-connect]] — servidores que importam/exportam dados para integrar Kafka com sistemas existentes.
