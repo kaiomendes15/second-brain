@@ -34,6 +34,16 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 - [[integracao-sistemas-point-to-point]] — modelo de distribuição um-para-um, entrega única garantida.
 - [[integracao-sistemas-publish-subscribe]] — modelo de distribuição um-para-muitos via tópicos.
 
+#### Integração de Sistemas — Apache Kafka
+
+- [[kafka-visao-geral]] — o que é o Apache Kafka: servers e clients sobre protocolo TCP.
+- [[kafka-cluster-e-brokers]] — clusters de servidores e a storage layer (broker).
+- [[kafka-connect]] — servidores que importam/exportam dados para integrar Kafka com sistemas existentes.
+- [[kafka-clients]] — aplicações que leem, escrevem e processam fluxos de eventos.
+- [[kafka-producers-e-consumers]] — desacoplamento entre producers e consumers e garantias do Kafka.
+- [[kafka-topics]] — organização de eventos em tópicos: multi-producer/subscriber e retenção.
+- [[kafka-particionamento]] — particionamento de tópicos, event key e ordenação garantida por partição.
+
 #### Java — Class Loaders
 
 - [[java-classloader-definicao]] — o que é um class loader, suas funções e os três tipos embutidos (bootstrap, platform, system).

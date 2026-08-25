@@ -8,35 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "98209a48c55fe66f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "inbox/tsconfig.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tsconfig"
-            }
-          },
-          {
             "id": "4ed0a70598190e73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
+                "file": "computacao/notas/integracao-sistemas/kafka/kafka-clients.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bloco-0"
+              "title": "kafka-clients"
+            }
+          },
+          {
+            "id": "f12bdec66310e3fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-mensageria.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "integracao-sistemas-mensageria"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +90,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -212,44 +210,46 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2cab6add93d5303d",
+  "active": "4ed0a70598190e73",
   "lastOpenFiles": [
-    "projetos/xadrez-typescript/src/index.ts",
-    "projetos/xadrez-typescript/package-lock.json",
-    "projetos/xadrez-typescript/node_modules/typescript/ThirdPartyNoticeText.txt",
-    "projetos/xadrez-typescript/node_modules/typescript/LICENSE.txt",
-    "projetos/xadrez-typescript/node_modules/typescript/lib/typescript.d.ts",
-    "projetos/xadrez-typescript/node_modules/typescript/lib/tsserverlibrary.d.ts",
-    "projetos/xadrez-typescript/node_modules/typescript/lib/lib.webworker.iterable.d.ts",
-    "projetos/xadrez-typescript/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-    "projetos/xadrez-typescript/node_modules/typescript/lib/lib.webworker.d.ts",
-    "projetos/xadrez-typescript/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts",
-    "projetos/xadrez-typescript/node_modules/typescript/lib/lib.scripthost.d.ts",
+    "index.md.tmp.12766.d5fc3e2399cf",
+    "index.md.tmp.12766.079e89f95f6f",
+    "index.md.tmp.12766.530579a26e8e",
+    "index.md.tmp.12766.4093b82a9956",
+    "computacao/notas/integracao-sistemas/kafka/guide.md",
+    "computacao/notas/integracao-sistemas/kafka/guide.md.tmp.12766.a03cff4683b3",
+    "computacao/notas/integracao-sistemas/mensageria/guide.md",
+    "computacao/notas/integracao-sistemas/mensageria/guide.md.tmp.12766.ac8c0ce698c3",
+    "computacao/notas/integracao-sistemas/kafka/kafka-cluster-e-brokers.md",
+    "computacao/notas/integracao-sistemas/kafka/kafka-connect.md",
+    "computacao/notas/integracao-sistemas/kafka/kafka-particionamento.md",
+    "computacao/notas/integracao-sistemas/kafka/kafka-producers-e-consumers.md",
+    "computacao/notas/integracao-sistemas/kafka/kafka-topics.md",
+    "computacao/notas/integracao-sistemas/kafka/kafka-visao-geral.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-message-broker.md",
+    "inbox/apache-kafka.md",
+    "index.md.tmp.12766.397667f4bba5",
+    "log.md.tmp.12766.65b14a16cc62",
+    "computacao/notas/integracao-sistemas/kafka/kafka-particionamento.md.tmp.12766.69823ecb77d8",
+    "computacao/notas/integracao-sistemas/kafka/kafka-topics.md.tmp.12766.327cc100d54e",
+    "computacao/notas/integracao-sistemas/kafka/kafka-producers-e-consumers.md.tmp.12766.5e929a0a69ea",
+    "computacao/notas/integracao-sistemas/kafka/kafka-clients.md",
+    "assets/kafka-particionamento-exemplo.png",
+    "Pasted image 20260825144605.png",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-publish-subscribe.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-amqp.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-comunicacao-assincrona.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-consumer.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-event.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-exchange.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-message-queue.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-mensageria.md",
+    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-producer.md",
+    "computacao/notas/computacao-grafica/apresentacao-narak.md",
+    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
     "projetos/xadrez-typescript/node_modules/typescript/SECURITY.md",
     "projetos/xadrez-typescript/node_modules/typescript/README.md",
     "projetos/xadrez-typescript/node_modules/@esbuild/linux-x64/README.md",
-    "projetos/xadrez-typescript/node_modules/tsx/README.md",
-    "projetos/xadrez-typescript/node_modules/esbuild/README.md",
-    "projetos/xadrez-typescript/node_modules/esbuild/LICENSE.md",
-    "projetos/xadrez-typescript/node_modules/undici-types/README.md",
-    "projetos/xadrez-typescript/node_modules/@types/node/README.md",
-    "projetos/xadrez-typescript/README.md",
-    "inbox/tsconfig.md",
-    "computacao/roadmaps/roadmap-curto-prazo/bloco-0.md",
-    "computacao/estado.md",
-    "Especificacao-Sistema-Academico.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-message-broker.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-message-queue.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-publish-subscribe.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-comunicacao-assincrona.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-amqp.md",
-    "computacao/estado-dtec.md",
-    "inbox/mensageria.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-point-to-point.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-exchange.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-consumer.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-producer.md",
-    "computacao/notas/integracao-sistemas/mensageria/integracao-sistemas-event.md",
     "assets/integracao-sistemas-mensageria-componentes.png",
     "Pasted image 20260824152630.png",
     "Untitled.canvas",

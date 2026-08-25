@@ -3,6 +3,8 @@
 Registro cronológico append-only. Prefixo: `## [AAAA-MM-DD] operação | título`.
 Consulta rápida: `grep "^## \[" log.md | tail -5`.
 
+## [2026-08-25] arquivar | Granularização de apache-kafka (7 notas criadas em computacao/notas/integracao-sistemas/kafka/)
+
 ## [2026-08-24] arquivar | Granularização de mensageria (11 notas criadas em computacao/notas/integracao-sistemas/mensageria/)
 
 ## [2026-08-21] avançar | Preferência de abordagem prática registrada em estado-dtec
