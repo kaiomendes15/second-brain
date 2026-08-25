@@ -16,7 +16,7 @@ Quando o usuário invocar `/granularizar`, opcionalmente seguido de `<nome-do-ar
 
 ## O que essa skill faz
 
-Lê uma nota crua de `inbox/` (tipicamente um clipping de documentação/artigo), identifica todos os conceitos atômicos presentes nela, cria uma nota granular individual para cada conceito, e **move o resultado para o diretório do cofre que corresponde ao contexto do conteúdo** — criando esse diretório se necessário (sob confirmação). Ao final, a nota crua é removida de `inbox/`. **Nunca inventa conteúdo:** só reorganiza e estrutura o que está na nota de origem.
+Lê uma nota crua de `inbox/` (tipicamente um clipping de documentação/artigo), identifica todos os conceitos atômicos presentes nela, cria uma nota granular individual para cada conceito, e **move o resultado para o diretório do cofre que corresponde ao contexto do conteúdo** — criando esse diretório se necessário (sob confirmação). Também cria (ou atualiza) um `guide.md` nesse diretório, com uma tabela que serve de trilha de leitura sugerida entre as notas do lote. Ao final, a nota crua é removida de `inbox/`. **Nunca inventa conteúdo:** só reorganiza e estrutura o que está na nota de origem.
 
 ---
 
@@ -122,7 +122,41 @@ fonte_url: {url da nota de origem, se disponível}
 - Preserve exemplos de código da nota de origem; reformate se necessário para clareza
 - Traduza/normalize para português nas explicações, mantendo termos técnicos em inglês
 
-### 7. Colorir o novo nó no grafo (se o destino é uma pasta nova)
+### 7. Criar ou atualizar o `guide.md` do diretório de destino
+
+Todo diretório de destino (o mesmo caminho do passo 3/6, onde as notas atômicas do lote foram criadas) recebe um `guide.md` — um guia de leitura da pasta. Ele nunca vai na raiz de `computacao/notas/`, só no diretório final onde as notas realmente ficam.
+
+**Ordem de leitura:** a ordem das linhas da tabela reflete a ordem em que os assuntos foram apresentados na nota de origem do inbox (não ordem alfabética, não ordem de criação dos arquivos).
+
+**Se o `guide.md` ainda não existe** (pasta nova ou primeira leva), crie-o:
+
+```markdown
+---
+tipo: indice
+area: {computacao | pessoal | ...}
+tags: [{dominio}]
+atualizado: {data-de-hoje}
+---
+
+# Guia de Leitura — {Domínio/Tópico}
+
+| Nota | Conteúdo |
+|---|---|
+| [[{slug-1}]] | {resumo de uma linha} |
+| [[{slug-2}]] | {resumo de uma linha} |
+```
+
+**Se o `guide.md` já existe** (nova leva de granularização caindo na mesma pasta), leia-o e **atualize-o em vez de recriar do zero**: insira as novas linhas na posição que corresponde à ordem de exposição do assunto na nova nota de origem — não simplesmente anexe ao final. Preserve as linhas já existentes que não mudaram.
+
+**Subpastas:** se o diretório de destino contiver subpastas (cada uma com seu próprio `guide.md`, criado quando ela foi granularizada), adicione uma linha por subpasta em vez de detalhar nota a nota — a coluna "Conteúdo" traz um resumo do conteúdo médio/geral daquela subpasta como um todo. O detalhamento nota a nota da subpasta vive no `guide.md` dela, não neste.
+
+```markdown
+| [[{caminho-completo-da-subpasta}/guide|{Nome da Subpasta}]] | {resumo geral do que a subpasta cobre} |
+```
+
+Use o wikilink com caminho completo (`[[caminho/completo/ate/a/pasta/guide|Rótulo]]`) para a subpasta e, ao referenciar este mesmo `guide.md` a partir de fora (ex.: `index.md`), pelo mesmo motivo: como o arquivo sempre se chama `guide.md`, um link sem caminho (`[[guide]]`) fica ambíguo entre pastas diferentes do cofre.
+
+### 8. Colorir o novo nó no grafo (se o destino é uma pasta nova)
 
 Se o passo 3 criou um diretório de destino que não existia antes (novo domínio e/ou novo tópico), adicione um grupo de cor para ele no grafo do Obsidian, seguindo o padrão já usado em `.obsidian/graph.json` → `colorGroups`:
 
@@ -139,17 +173,23 @@ Se o passo 3 criou um diretório de destino que não existia antes (novo domíni
 - Se o destino já existia (pasta reaproveitada), pule este passo — não crie cor duplicada nem edite o grupo existente.
 - Se, além da pasta, o lote introduzir uma **tag nova** que ainda não aparece em nenhuma nota do cofre (fora do frontmatter desta nota) e essa tag for central o suficiente para merecer destaque próprio no grafo (como o grupo existente `tag:#roadmap OR tag:#carreira`), você pode propor ao usuário um grupo adicional por tag — mas isso é sob confirmação, não automático.
 
-### 8. Remover a nota de origem do inbox
+### 9. Remover a nota de origem do inbox
 
 Depois que todas as notas granulares do lote foram criadas (e confirmadas), apague o arquivo processado de `inbox/`. A nota crua não sobrevive como arquivo — o conteúdo dela agora vive dividido nas notas atômicas.
 
-### 9. Atualizar index.md e log.md
+### 10. Atualizar index.md e log.md
 
 **index.md:** adicione cada nova nota criada na seção correspondente à sua área. Formato de uma linha:
 ```
 - [[slug]] — resumo de uma linha do que a nota cobre
 ```
 Se o destino é uma pasta nova, crie também a subseção correspondente no índice, seguindo o padrão das seções vizinhas.
+
+Inclua também uma linha para o `guide.md` do diretório de destino (criado/atualizado no passo 7), como primeira linha da subseção — use o wikilink com caminho completo para evitar ambiguidade com outros `guide.md` do cofre:
+```
+- [[{caminho-completo-do-diretório}/guide|Guia de Leitura — {Domínio/Tópico}]] — ordem de leitura sugerida entre as notas abaixo.
+```
+Se o `guide.md` já existia e só foi atualizado (nova leva na mesma pasta), a linha já estará no índice — não duplique.
 
 **log.md:** adicione uma entrada no topo do arquivo (logo após o cabeçalho):
 ```
@@ -169,3 +209,5 @@ Repita os passos 2-9 para a próxima nota da fila, se houver.
 - Não sobrescreva notas existentes sem confirmar com o usuário primeiro
 - Não pule o passo de aprovação antes de escrever arquivos
 - Não deixe a nota de origem em `inbox/` depois que as notas granulares foram criadas
+- Não esqueça de criar/atualizar o `guide.md` do diretório de destino, nem de listar o `guide.md` no `index.md`
+- Não recrie um `guide.md` já existente do zero — atualize-o preservando as linhas que não mudaram
