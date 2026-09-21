@@ -15,6 +15,7 @@ Para responder perguntas, comece por este arquivo, depois abra as páginas relev
 - [[computacao/roadmaps/roadmap-dtec/index]] — trilha Kotlin/Quarkus/Arquitetura Hexagonal, motivada pelo emprego atual (DTec). *Referência intocável.*
 - [[estado]] — trilha freelance/vaga remota: onde estou agora / próximos passos. *Mantido pela IA.*
 - [[estado-dtec]] — trilha DTec: onde estou agora / próximos passos. *Mantido pela IA.*
+- [[computacao/processos-seletivos]] — board de vagas aplicadas (empresa, cargo, stack, status) e log de feedbacks de rejeição.
 
 ### Notas de CS
 

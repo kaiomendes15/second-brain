@@ -139,3 +139,9 @@ requisitos). Escopo definido junto ao dono: tabuleiro + peças + geração de mo
 por tipo de peça, sem xeque/xeque-mate/roque/en passant — projeto substitui as 3 opções
 sugeridas pelo roadmap (decisão de sessão anterior). `npm install` rodado, ambiente validado
 com `tsx`. Lógica ainda não escrita — fica a cargo do dono.
+
+## [2026-09-18] arquivar | Board de processos seletivos
+
+Criado `computacao/processos-seletivos.md`: tabela simples (empresa, cargo, stack, data
+aplicada, fonte, status, notas) + seção de log de rejeições para registrar feedback recebido.
+Indexado em `index.md`.
